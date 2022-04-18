@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
+    //Variables
     public CharacterController controller;
     public Transform cam;
 
-    public float speed = 6f;
+    public float speed = 10f;
 
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
@@ -21,6 +22,7 @@ public class ThirdPersonMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Smooth Movement
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
