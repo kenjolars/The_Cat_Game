@@ -9,6 +9,7 @@ public class MenuItemScript : MonoBehaviour
     public Color hoverColor;
     public Color baseColor;
     public Image background;
+    public GameObject description;
 
     void Start()
     {
@@ -18,10 +19,12 @@ public class MenuItemScript : MonoBehaviour
     public void Select()
     {
         background.color = hoverColor;
+        description.SetActive(true);
     }
 
     public void Deselect()
     {
         background.color = baseColor;
+        description.SetActive(false);
     }
 }
