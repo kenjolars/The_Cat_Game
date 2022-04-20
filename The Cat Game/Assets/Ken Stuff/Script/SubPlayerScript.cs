@@ -1,6 +1,4 @@
 using System.Collections;
-
-
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Security.Cryptography;
@@ -36,7 +34,7 @@ public class SubPlayerScript : MonoBehaviour
             //velocity.y = -2f;
         }
 
-        if(controller.isGrounded)
+        if (controller.isGrounded)
         {
             if (Input.GetButtonDown("Jump"))
             {
@@ -48,12 +46,12 @@ public class SubPlayerScript : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        //walk
+        //Smooth Movement
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
-        if (direction.magnitude >= 0.1f)
+        if (direction.magnitude >= 1.0f)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
