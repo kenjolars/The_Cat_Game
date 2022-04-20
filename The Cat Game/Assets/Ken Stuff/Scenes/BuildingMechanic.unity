@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &89560423 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7124878887161204970, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
+  m_PrefabInstance: {fileID: 670984164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &91723014
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,15 +463,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7124878886734417556, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.13505942
+      value: 0.1350594
       objectReference: {fileID: 0}
     - target: {fileID: 7124878886734417556, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -8.719026e-16
+      value: 0.00000001476463
       objectReference: {fileID: 0}
     - target: {fileID: 7124878886734417556, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 1.7869098e-17
+      value: -0.0000000020125421
       objectReference: {fileID: 0}
     - target: {fileID: 7124878887161204970, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_RootOrder
@@ -934,6 +939,54 @@ Transform:
   m_Father: {fileID: 1033604116}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1642625640 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1062359063396453482, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
+  m_PrefabInstance: {fileID: 1888913908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &1642625642 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 1062359063396453493, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
+  m_PrefabInstance: {fileID: 1888913908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1642625643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642625640}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7a005364175fa40927e3ad01eb19c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  gravity: 9.81
+  jump: 4
+--- !u!114 &1642625644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642625640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d411721e6c5d6104ba5e7628e4623ed4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1642625642}
+  cam: {fileID: 89560423}
+  speed: 6
+  gravity: -9.81
+  jumpHeight: 0.5
+  groundCheck: {fileID: 1033604116}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
+  turnSmoothTime: 0.1
 --- !u!1001 &1803893257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1069,6 +1122,10 @@ PrefabInstance:
     - target: {fileID: 1062359063396453492, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
       propertyPath: gravity
       value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062359063396453492, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1062359063396453492, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
       propertyPath: groundCheck

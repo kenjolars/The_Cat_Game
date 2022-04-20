@@ -33,7 +33,7 @@ public class SubPlayerScript : MonoBehaviour
 
         if (isGrounded && velocity.y < 0)
         {
-            velocity.y = -7f;
+            //velocity.y = -2f;
         }
 
         if(controller.isGrounded)
