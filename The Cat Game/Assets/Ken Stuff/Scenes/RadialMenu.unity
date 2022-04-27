@@ -562,6 +562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538348704}
   - component: {fileID: 538348705}
+  - component: {fileID: 538348706}
   m_Layer: 5
   m_Name: PieMenu
   m_TagString: Untagged
@@ -614,6 +615,25 @@ MonoBehaviour:
   - {fileID: 1675230432}
   - {fileID: 948903166}
   - {fileID: 1075898}
+--- !u!95 &538348706
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538348703}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 312ab177a27b5664aa52bfad342f9206, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &558579773
 GameObject:
   m_ObjectHideFlags: 0
