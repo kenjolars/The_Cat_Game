@@ -1,0 +1,517 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2.1 (Build 21D62)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51191
+Successfully changed project path to: /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game
+/Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-27 19:35:41.456 Unity[12848:95130] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-27 19:35:41.456 Unity[12848:95130] Metal devices available: 1
+2022-04-27 19:35:41.456 Unity[12848:95130] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-27 19:35:41.456 Unity[12848:95130] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000557 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Domain Reload Profiling:
+	ReloadAssembly (684ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (552ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001203 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1344ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1126ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.028853 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.009840 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2022-04-27 19:35:45.385 Unity[12848:95130] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000a864c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-27 19:35:45.388 Unity[12848:95130] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000a97e90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.3 MB.
+System memory in use after: 216.3 MB.
+
+Unloading 177 unused Assets to reduce memory usage. Loaded Objects now: 2656.
+Total: 4.602346 ms (FindLiveObjects: 0.246310 ms CreateObjectMapping: 0.117375 ms MarkObjects: 3.322310 ms  DeleteObjects: 0.915594 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Brick 01.FBX
+  artifactKey: Guid(901c32d0528f422458a6e74021d33750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Brick 01.FBX using Guid(901c32d0528f422458a6e74021d33750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f4f403b78ce5553ed9af419bbc1f89') in 0.439447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Step 02.FBX
+  artifactKey: Guid(2e27b019853b65f4298d763359179c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Step 02.FBX using Guid(2e27b019853b65f4298d763359179c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393b97d826388bb6c53f587fcad2e728') in 0.024439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Leaf 01.FBX
+  artifactKey: Guid(56f131cfdf85e224ebda5c7242730a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Leaf 01.FBX using Guid(56f131cfdf85e224ebda5c7242730a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe2e976e564ee9c25c8ed2630f8598a') in 0.025681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Bridge 01 Pole.FBX
+  artifactKey: Guid(dd698ce29d85f654cb36050859f9b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Bridge 01 Pole.FBX using Guid(dd698ce29d85f654cb36050859f9b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ecd05a018b8359c16e39d31ff5a5e7') in 0.045524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Step 01.FBX
+  artifactKey: Guid(d455e0fa5e02c534d99299f233b0dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Step 01.FBX using Guid(d455e0fa5e02c534d99299f233b0dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968aab80f6fa01564f136ad3e33c1f5e') in 0.020362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Step 03.FBX
+  artifactKey: Guid(ac1a28aad6cbf5b4695c1381ebd20add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Step 03.FBX using Guid(ac1a28aad6cbf5b4695c1381ebd20add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f0f77ecc1776faaa007589800dd7ee') in 0.023156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Snow Rock 01.FBX
+  artifactKey: Guid(b946441aa107f734093b80a2f7378892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Snow Rock 01.FBX using Guid(b946441aa107f734093b80a2f7378892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297b54a03f72f9ed341e9bf16fb1ebf5') in 0.033668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Leaf 03.FBX
+  artifactKey: Guid(364ebee528a0007429b3e494bc0b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Leaf 03.FBX using Guid(364ebee528a0007429b3e494bc0b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a431006772db2caad35d1907a8a7ea01') in 0.020145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Snow Rock 02.FBX
+  artifactKey: Guid(a34de7967ec20b943b6715cbd9f00c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Snow Rock 02.FBX using Guid(a34de7967ec20b943b6715cbd9f00c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022f2c044931c852b1b0e17d8ea0f7b9') in 0.021165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Fence 01 Pole.FBX
+  artifactKey: Guid(1e9ce5f8bd3394e4cbdc3fcb01610f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Fence 01 Pole.FBX using Guid(1e9ce5f8bd3394e4cbdc3fcb01610f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc508efd8838911b841bb65685ad205e') in 0.026194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Ground 01.FBX
+  artifactKey: Guid(caf641ddefdf78141aa09f4083f8abee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Ground 01.FBX using Guid(caf641ddefdf78141aa09f4083f8abee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcaa3108227e9451924a7b18cdced34') in 0.015965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Tree 01.FBX
+  artifactKey: Guid(7f5b7f38b3a29c344923541062fa7188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Tree 01.FBX using Guid(7f5b7f38b3a29c344923541062fa7188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215636156b6995f87b36aacbdfc568c7') in 0.039642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000982 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Rock 01.FBX
+  artifactKey: Guid(da981305f30bd694487015135d4171ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Rock 01.FBX using Guid(da981305f30bd694487015135d4171ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fe15a9bff4fc0d61024b3a06f92f55') in 0.022846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Tree 02.FBX
+  artifactKey: Guid(e0f77ebde4e09d54389e03991472a223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Tree 02.FBX using Guid(e0f77ebde4e09d54389e03991472a223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8a72c11b14f329789788ef2f07cc5b') in 0.031824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Fence 01 Barrier 01.FBX
+  artifactKey: Guid(94058d6989c932743b83440eb5863897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Fence 01 Barrier 01.FBX using Guid(94058d6989c932743b83440eb5863897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1815de32a6e7257eb2fb176ad6528598') in 0.038978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Bridge 01 Mid.FBX
+  artifactKey: Guid(7d768beb1a869c944aa299dfe804aa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Bridge 01 Mid.FBX using Guid(7d768beb1a869c944aa299dfe804aa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9ff561f41cdfd95de7e4f444596f8b') in 0.020479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Gate 02.FBX
+  artifactKey: Guid(0386a4f8281526348ad5d9241ef00f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Gate 02.FBX using Guid(0386a4f8281526348ad5d9241ef00f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e006bc3645fd784a19c606b917cc9ca8') in 0.032460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Magical Gate 01.FBX
+  artifactKey: Guid(1a78a485e1bf7454dad60e2267b68cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Magical Gate 01.FBX using Guid(1a78a485e1bf7454dad60e2267b68cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60ecf5842158011b17e5c0757bbc7fa') in 0.037377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Snow Clump 01.FBX
+  artifactKey: Guid(82df7f6b142379d448da6dde6a7a73df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Snow Clump 01.FBX using Guid(82df7f6b142379d448da6dde6a7a73df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33b968af85e09581c433e072f2b2fc1') in 0.024249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Leaf 02.FBX
+  artifactKey: Guid(4bf3bf059cbbc29439aba2d7c0b9667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Leaf 02.FBX using Guid(4bf3bf059cbbc29439aba2d7c0b9667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b703d517befe26cf36f39eb76b6d9a2') in 0.037354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Wall 01.FBX
+  artifactKey: Guid(ba2133f48599257478972f3e6e2d3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Wall 01.FBX using Guid(ba2133f48599257478972f3e6e2d3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79afb5413314d0f8a628fd17a21bcd2') in 0.028064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Pillar 01.FBX
+  artifactKey: Guid(95a51da18efbfdd4f985b4bc1c20b062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Pillar 01.FBX using Guid(95a51da18efbfdd4f985b4bc1c20b062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fa52b9de121de264d380958e7a54bd') in 0.032778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Pillar 02.FBX
+  artifactKey: Guid(dd4775c78339565439dfd34a679d2823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Pillar 02.FBX using Guid(dd4775c78339565439dfd34a679d2823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1dfb00bb6234d93f9ecfb9d44d4dec') in 0.022471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Stone Monument 01.FBX
+  artifactKey: Guid(ebde80811669b4f4db75829501bafac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Stone Monument 01.FBX using Guid(ebde80811669b4f4db75829501bafac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ded0194fe07ffad525a96a27ecfc2c') in 0.024229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Wall 02.FBX
+  artifactKey: Guid(fe3aa353f63c15e4a9a125e44097c8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX/Wall 02.FBX using Guid(fe3aa353f63c15e4a9a125e44097c8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086620afcd154fc79a023abba0ba788f') in 0.031747 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 174.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 4.480137 ms (FindLiveObjects: 0.246892 ms CreateObjectMapping: 0.107171 ms MarkObjects: 4.094528 ms  DeleteObjects: 0.030572 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.321869 seconds.
+  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX
+  artifactKey: Guid(08e2937a6d4036a4dbc0092102a03450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/FBX using Guid(08e2937a6d4036a4dbc0092102a03450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df40060be0d42f9a6557d23e5a97b36f') in 0.000873 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-27 19:39:01.863 Unity[12848:95130] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ae36b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1421ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1145ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.2 MB.
+System memory in use after: 218.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2712.
+Total: 4.410872 ms (FindLiveObjects: 0.210273 ms CreateObjectMapping: 0.092717 ms MarkObjects: 4.055442 ms  DeleteObjects: 0.051525 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 480.762705 seconds.
+  path: Assets/Johnna Stuff/JohnnaScene.unity
+  artifactKey: Guid(d6e58b2698ef3ee4cb05836090e40f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/JohnnaScene.unity using Guid(d6e58b2698ef3ee4cb05836090e40f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150f0e13b143c7b59c3a907ee5cc2ccf') in 0.026222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.446744 seconds.
+  path: Assets/Johnna Stuff/ThirdPersonController.unity
+  artifactKey: Guid(4b6f056eb313d774b910bc91fdbf0c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/ThirdPersonController.unity using Guid(4b6f056eb313d774b910bc91fdbf0c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0626b41323892432c7b02583f517a7c') in 0.004993 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-27 19:45:37.787 Unity[12848:95130] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ae2f40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1422ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1177ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.3 MB.
+System memory in use after: 219.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2725.
+Total: 3.468302 ms (FindLiveObjects: 0.197715 ms CreateObjectMapping: 0.083557 ms MarkObjects: 3.144209 ms  DeleteObjects: 0.042167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-27 19:48:20.561 Unity[12848:95130] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ae2ca0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.382 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1382ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1150ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.5 MB.
+System memory in use after: 219.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2738.
+Total: 3.750079 ms (FindLiveObjects: 0.207904 ms CreateObjectMapping: 0.098500 ms MarkObjects: 3.415950 ms  DeleteObjects: 0.026417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

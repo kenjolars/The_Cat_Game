@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -602,6 +602,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &572272899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1604937141649503251, guid: 1a646c20a41373b4f9d0a914a24b6863, type: 3}
+  m_PrefabInstance: {fileID: 1604937142714512420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &572272900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572272899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 0
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &671787081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,6 +1414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 1604937141649503251, guid: 1a646c20a41373b4f9d0a914a24b6863, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1604937141649503261, guid: 1a646c20a41373b4f9d0a914a24b6863, type: 3}
       propertyPath: far clip plane
       value: 5000
@@ -1427,7 +1470,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1604937141649503256, guid: 1a646c20a41373b4f9d0a914a24b6863, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1a646c20a41373b4f9d0a914a24b6863, type: 3}
 --- !u!1001 &7124878886762958287
 PrefabInstance:
@@ -1478,11 +1522,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7124878887161204970, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7124878887161204970, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7124878887161204970, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_LocalRotation.w
