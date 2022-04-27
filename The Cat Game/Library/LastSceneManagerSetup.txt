@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Johnna Stuff/ThirdPersonController.unity
+- path: Assets/Ken Stuff/Scenes/KenScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

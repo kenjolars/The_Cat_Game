@@ -36,9 +36,11 @@ public class SubPlayerScript : MonoBehaviour
 
         if (controller.isGrounded)
         {
+            Debug.Log(isGrounded);
             if (Input.GetButtonDown("Jump"))
             {
                 velocity.y = (jumpHeight * -1 * gravity);
+                Debug.Log("Space is pressed");
             }
         }
 
