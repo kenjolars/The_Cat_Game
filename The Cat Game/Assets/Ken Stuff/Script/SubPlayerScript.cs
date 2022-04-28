@@ -16,9 +16,6 @@ public class SubPlayerScript : MonoBehaviour
     Vector3 velocity;
     bool isGrounded;
 
-    bool buttonDownjump = false;
-    bool buttonUpjump = false;
-
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
@@ -43,18 +40,7 @@ public class SubPlayerScript : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             {
                 velocity.y = (jumpHeight * -1 * gravity);
-<<<<<<< Updated upstream
-                Debug.Log("Space is pressed");
-=======
-                buttonDownjump = true;
                 Debug.Log("Jump is pressed");
-            }
-
-            if (Input.GetButtonUp("Jump"))
-            {
-                buttonUpjump = true;
-                Debug.Log("Jump is released");
->>>>>>> Stashed changes
             }
         }
 
