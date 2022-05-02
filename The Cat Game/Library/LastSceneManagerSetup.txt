@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Ken Stuff/Scenes/DimensionScene.unity
+- path: Assets/Simone Stuff/Playground Low Poly/Maps/Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
