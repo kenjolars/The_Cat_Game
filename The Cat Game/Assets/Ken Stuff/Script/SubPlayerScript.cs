@@ -40,7 +40,7 @@ public class SubPlayerScript : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             {
                 velocity.y = (jumpHeight * -1 * gravity);
-                Debug.Log("Space is pressed");
+                Debug.Log("Jump is pressed");
             }
         }
 
