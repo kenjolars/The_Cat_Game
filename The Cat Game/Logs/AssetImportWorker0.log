@@ -22,103 +22,103 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64029
+64440
 Successfully changed project path to: /Users/wangsimeng/Documents/GitHub/The_Cat_Game/The Cat Game
 /Users/wangsimeng/Documents/GitHub/The_Cat_Game/The Cat Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/wangsimeng/Documents/GitHub/The_Cat_Game/The Cat Game/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-02 12:46:19.412 Unity[27820:1739096] (null) preferred device: Apple M1 Pro (high power)
-2022-05-02 12:46:19.412 Unity[27820:1739096] Metal devices available: 1
-2022-05-02 12:46:19.412 Unity[27820:1739096] 0: Apple M1 Pro (high power)
-2022-05-02 12:46:19.412 Unity[27820:1739096] Using device Apple M1 Pro (high power)
+2022-05-02 13:07:39.488 Unity[28200:1749221] (null) preferred device: Apple M1 Pro (high power)
+2022-05-02 13:07:39.488 Unity[28200:1749221] Metal devices available: 1
+2022-05-02 13:07:39.488 Unity[28200:1749221] 0: Apple M1 Pro (high power)
+2022-05-02 13:07:39.488 Unity[28200:1749221] Using device Apple M1 Pro (high power)
 Initializing Metal device caps: Apple M1 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000480 seconds.
+Registered in 0.000481 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.229 seconds
+- Completed reload, in  1.318 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1229ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (1318ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1033ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (1127ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (529ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (604ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (339ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000925 seconds.
+Registered in 0.001168 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.374 seconds
+- Completed reload, in  2.582 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2376ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (2584ms)
+		BeginReloadAssembly (258ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
+			DisableScriptedObjects (35ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (2041ms)
-			LoadAssemblies (176ms)
+		EndReloadAssembly (2235ms)
+			LoadAssemblies (186ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
+			SetupTypeCache (339ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1132ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1289ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (924ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (1063ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.004220 seconds.
+Validating Project structure ... 0.004159 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.005991 seconds.
+Upgrading shader files ...0.007078 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,20 +128,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Initializing Unity extensions:
-2022-05-02 12:46:23.987 Unity[27820:1739096] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001c7250 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-05-02 12:46:23.991 Unity[27820:1739096] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001aa840 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-05-02 13:07:44.527 Unity[28200:1749221] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002359810 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-05-02 13:07:44.530 Unity[28200:1749221] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002345dc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 219.3 MB.
-System memory in use after: 217.3 MB.
+System memory in use before: 219.4 MB.
+System memory in use after: 217.4 MB.
 
 Unloading 177 unused Assets to reduce memory usage. Loaded Objects now: 2656.
-Total: 2.811917 ms (FindLiveObjects: 0.092792 ms CreateObjectMapping: 0.042833 ms MarkObjects: 2.052958 ms  DeleteObjects: 0.622666 ms)
+Total: 2.938334 ms (FindLiveObjects: 0.102542 ms CreateObjectMapping: 0.043875 ms MarkObjects: 2.079875 ms  DeleteObjects: 0.711208 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -155,30 +155,138 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Simone Stuff/Playground Low Poly
-  artifactKey: Guid(2024883b1ee4c45c6ac42e964da43886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly using Guid(2024883b1ee4c45c6ac42e964da43886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f360930dc96553659cc55f3345a5a90') in 0.008579 seconds 
+  path: Assets/tutorial level
+  artifactKey: Guid(d7a9d35cc61df4dbc9e2c6f277193344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level using Guid(d7a9d35cc61df4dbc9e2c6f277193344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e27e288945f92189a74099a9f30cda') in 0.006051 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.353479 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly
-  artifactKey: Guid(d5ba5202b919b4bb98700c977d7a853e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly using Guid(d5ba5202b919b4bb98700c977d7a853e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63043363a410edc98663eb7edbf9cba') in 0.001322 seconds 
+  Time since last request: 162.247950 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses
+  artifactKey: Guid(a8de9d4f7d6cc4366be1f0c3564d2e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses using Guid(a8de9d4f7d6cc4366be1f0c3564d2e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ded1323dbcad2bb9fd7fe1fe04c9a0') in 0.001386 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.556973 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Materials
-  artifactKey: Guid(9e4ed0c303eeca0498864725b3804faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Materials using Guid(9e4ed0c303eeca0498864725b3804faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734e67ca225f34cde5976a68e1a0dfd1') in 0.001148 seconds 
+  Time since last request: 1.382714 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Prefabs
+  artifactKey: Guid(02524b13efc77450e9acb417fcb7f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Prefabs using Guid(02524b13efc77450e9acb417fcb7f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e68e85f2979c449bdd35b4b2c080d0') in 0.001290 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.955531 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Maps
-  artifactKey: Guid(f12136fc71588a14aabd42f9df95c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Maps using Guid(f12136fc71588a14aabd42f9df95c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c46472bdc9eb3cf80a261932bcb0c3') in 0.001404 seconds 
+  Time since last request: 0.124525 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/01_House.prefab
+  artifactKey: Guid(65738120ba9124ae7ab61ff3fa4c28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/01_House.prefab using Guid(65738120ba9124ae7ab61ff3fa4c28d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62609e04ec1f30fc039a70e7d85c9ce') in 0.653397 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.745873 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Maps/Demo.unity
-  artifactKey: Guid(b0de0711692b843459ecac0863bcc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Maps/Demo.unity using Guid(b0de0711692b843459ecac0863bcc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6287f8fa55309213349fabfbae5f04') in 0.018487 seconds 
+  Time since last request: 0.000335 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/02_House.prefab
+  artifactKey: Guid(3bc0c77f954cf4727aa8fd75e49376c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/02_House.prefab using Guid(3bc0c77f954cf4727aa8fd75e49376c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e1eee52fbd68947a0a3ddae504eddc') in 0.103808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/04_House.prefab
+  artifactKey: Guid(011cbf0be1acc4d70bd0aadeb648794b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/04_House.prefab using Guid(011cbf0be1acc4d70bd0aadeb648794b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5204953fbaaf4a7f4e1024f97c5166dd') in 0.215897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/05_House.prefab
+  artifactKey: Guid(2135d3e30c5a748cf8220a004e2b1315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/05_House.prefab using Guid(2135d3e30c5a748cf8220a004e2b1315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b737bb39c0c6e8fcb8db012f7935b275') in 0.123315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/03_House.prefab
+  artifactKey: Guid(0f02c931939a84ac5bedaaa945045ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Prefabs/03_House.prefab using Guid(0f02c931939a84ac5bedaaa945045ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9946d75cfe9b714ad94f7e880598e9bb') in 0.025458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.901840 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Materials
+  artifactKey: Guid(f382883c9621e4eb8b94d556c00a32af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Materials using Guid(f382883c9621e4eb8b94d556c00a32af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68a6e8ebc86eedb2118e9ae01b2d3a7') in 0.001296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.688171 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Models
+  artifactKey: Guid(1e23ba77567654f26ae920803480223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Models using Guid(1e23ba77567654f26ae920803480223e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6cf6484b233a7dc65c18c4b8039a31') in 0.001058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.932568 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Scenes
+  artifactKey: Guid(159b8f06ab4f4412c92165c7b61db7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Scenes using Guid(159b8f06ab4f4412c92165c7b61db7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8449e93d2d8657efecd2739e83e25e') in 0.000931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.620427 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Scenes/01_House.unity
+  artifactKey: Guid(34cbf11eea4c7466089403e855afa593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Scenes/01_House.unity using Guid(34cbf11eea4c7466089403e855afa593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b5354ddbebe148f37c0928fa00e5b7') in 0.003135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.007677 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Scenes/02_House.unity
+  artifactKey: Guid(cd143760857cc4133a4624a31b0310e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Scenes/02_House.unity using Guid(cd143760857cc4133a4624a31b0310e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc891a2bc449526055f2b76c5581f87') in 0.001263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.461834 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Scenes/03_House.unity
+  artifactKey: Guid(9be29d401eb1a4fc5b33fb010111de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Scenes/03_House.unity using Guid(9be29d401eb1a4fc5b33fb010111de26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b617d977284707bffe60e550b2976d') in 0.001795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.598738 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Scenes/05_House
+  artifactKey: Guid(68be917f5334340098d26eef5d41ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Scenes/05_House using Guid(68be917f5334340098d26eef5d41ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add6526a7cf8a311879e6af24757eee5') in 0.001357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.136805 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Scenes/05_House/LightingData.asset
+  artifactKey: Guid(7cfcad182271a4af798881a34e7a61e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Scenes/05_House/LightingData.asset using Guid(7cfcad182271a4af798881a34e7a61e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ba24fbd59da499a728b2cce5e996b2') in 0.063710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Scenes/05_House/ReflectionProbe-0.exr
+  artifactKey: Guid(ecf500d401d7f4c16a82d740f15fbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Scenes/05_House/ReflectionProbe-0.exr using Guid(ecf500d401d7f4c16a82d740f15fbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c008ef212024df729fbb7db7a1c16a0e') in 0.115389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.354648 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Scenes/04_House.unity
+  artifactKey: Guid(05420e0213133499d9aa1758ca142939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Scenes/04_House.unity using Guid(05420e0213133499d9aa1758ca142939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2c6a1634b13c80c054100f768acbef') in 0.001876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.349590 seconds.
+  path: Assets/tutorial level/Low Poly Ultimate Houses/Scenes/AllModels.unity
+  artifactKey: Guid(6ccd8403b2d0a40a29d899ba4c5703b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Ultimate Houses/Scenes/AllModels.unity using Guid(6ccd8403b2d0a40a29d899ba4c5703b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f0fec299bf1f81966ec0399f270bac') in 0.001558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.300864 seconds.
+  path: Assets/tutorial level/tutorial scene.unity
+  artifactKey: Guid(39f99cdb4d70a47578fdc56ae4d3a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/tutorial scene.unity using Guid(39f99cdb4d70a47578fdc56ae4d3a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5b7be36b18954afac7b42c5c7b7acb') in 0.001880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.844447 seconds.
+  path: Assets/tutorial level/tutorial scene.unity
+  artifactKey: Guid(39f99cdb4d70a47578fdc56ae4d3a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/tutorial scene.unity using Guid(39f99cdb4d70a47578fdc56ae4d3a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa84c34525da08da2a17ae5c5f9f5a6') in 0.001398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.676325 seconds.
+  path: Assets/tutorial level/New Material.mat
+  artifactKey: Guid(d4d3d47e79eb74928bad58a664ea6361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/New Material.mat using Guid(d4d3d47e79eb74928bad58a664ea6361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ed1a209f7bf4513b84a75d94f00e94') in 0.109876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 173.015718 seconds.
+  path: Assets/StarterAssets/houses
+  artifactKey: Guid(a8de9d4f7d6cc4366be1f0c3564d2e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/houses using Guid(a8de9d4f7d6cc4366be1f0c3564d2e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31943fe57d309d169860d5795cb239ee') in 0.000787 seconds 
