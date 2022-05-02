@@ -290,3 +290,51 @@ Received Import Request.
   path: Assets/StarterAssets/houses
   artifactKey: Guid(a8de9d4f7d6cc4366be1f0c3564d2e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/StarterAssets/houses using Guid(a8de9d4f7d6cc4366be1f0c3564d2e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31943fe57d309d169860d5795cb239ee') in 0.000787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.804025 seconds.
+  path: Assets/tutorial level/tutorial scene.unity
+  artifactKey: Guid(39f99cdb4d70a47578fdc56ae4d3a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/tutorial scene.unity using Guid(39f99cdb4d70a47578fdc56ae4d3a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d216e466d652936f1c516e2277aed18') in 0.001412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 319.117468 seconds.
+  path: Assets/tutorial level/Low Poly Western Saloon
+  artifactKey: Guid(ade04061bef6f4c9c8d7bf1411d6b325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon using Guid(ade04061bef6f4c9c8d7bf1411d6b325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d9f2c05d65b2113b9e0f2a4e3a4375') in 0.001630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.650305 seconds.
+  path: Assets/tutorial level/Low Poly Western Saloon/Demo Scene
+  artifactKey: Guid(0c0925b178b71454497dc50871e8309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon/Demo Scene using Guid(0c0925b178b71454497dc50871e8309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b539ec2b61bf5a0ffb62b91bd7eae0') in 0.001007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.953132 seconds.
+  path: Assets/tutorial level/Low Poly Western Saloon/Demo Scene/Demo Scene.unity
+  artifactKey: Guid(5d5471248510e5945a95df196df0ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon/Demo Scene/Demo Scene.unity using Guid(5d5471248510e5945a95df196df0ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dcdf9d8c9a099289233f552b146c4c') in 0.001912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.468585 seconds.
+  path: Assets/tutorial level/tutorial scene.unity
+  artifactKey: Guid(5d5471248510e5945a95df196df0ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/tutorial scene.unity using Guid(5d5471248510e5945a95df196df0ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e55870f74dbac59c23605d62031c22') in 0.001315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.805394 seconds.
+  path: Assets/tutorial level/Low Poly Western Saloon/How To Use - Low Poly Western Saloon.pdf
+  artifactKey: Guid(0adaefa586a35754ea4979374f5cc4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon/How To Use - Low Poly Western Saloon.pdf using Guid(0adaefa586a35754ea4979374f5cc4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7431d4992471e33f1bb52f92dabb9875') in 0.083494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.727111 seconds.
+  path: Assets/tutorial level/Low Poly Western Saloon/Demo Scene
+  artifactKey: Guid(fd84a9c45f9a6447eae66db98fc85159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon/Demo Scene using Guid(fd84a9c45f9a6447eae66db98fc85159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a477d7452ede22ce3300087b936c2de') in 0.001082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.165178 seconds.
+  path: Assets/tutorial level/Demo Scene.unity
+  artifactKey: Guid(5d5471248510e5945a95df196df0ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Demo Scene.unity using Guid(5d5471248510e5945a95df196df0ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24692cb3d824fde5c3a5df1f309a52') in 0.001850 seconds 
