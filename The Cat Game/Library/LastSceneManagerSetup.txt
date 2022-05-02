@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/tutorial level/Demo Scene.unity
+- path: Assets/Johnna Stuff/JohnnaScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
