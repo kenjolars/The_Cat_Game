@@ -7,7 +7,10 @@ public class FollowPlayer : MonoBehaviour
 {
     //Variables 
     public Transform targetPlayer;
+    public Transform pet;
+    public Transform other;
     NavMeshAgent nav;
+    public float dist;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +21,24 @@ public class FollowPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        nav.SetDestination(targetPlayer.position);
+        if (other)
+        {
+            dist = Vector3.Distance(other.transform.position, pet.transform.position);
+            Debug.Log("Distance to other: " + other);
+
+            if (dist <= 8)
+            {
+                nav.SetDestination(targetPlayer.position);
+            }
+        }
     }
+
+    /*void OnTriggerEnter(Collider other)
+    {
+        if (Input.GetKeyDown(KeyCode.E) && other.tag == "Player")
+        {
+            nav.SetDestination(targetPlayer.position);
+            Debug.Log("Pet will start following");
+        }
+    }*/
 }
