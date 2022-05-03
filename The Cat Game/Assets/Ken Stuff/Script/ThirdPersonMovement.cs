@@ -10,6 +10,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
     public float speed = 10f;
     public float gravity = -9.81f;
+    public float jumpHeight = 3f;
 
     Vector3 velocity;
     bool isGrounded;
@@ -42,6 +43,12 @@ public class ThirdPersonMovement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+        //Jumping
+        if(Input.GetButtonDown("Jump") && isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
 
         velocity.y += gravity * Time.deltaTime;
 
