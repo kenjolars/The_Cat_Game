@@ -1,1319 +1,353 @@
-Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
-Branch:                  2020.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.3.1 (Build 21E258)
-Darwin version:          21.4.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        8192 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+D:\Unity\2020.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game
+C:/Users/kenph/Documents/GitHub/The_Cat_Game/The Cat Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53148
-Successfully changed project path to: /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game
-/Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game
+55139
+Successfully changed project path to: C:/Users/kenph/Documents/GitHub/The_Cat_Game/The Cat Game
+C:/Users/kenph/Documents/GitHub/The_Cat_Game/The Cat Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kenph/Documents/GitHub/The_Cat_Game/The Cat Game/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-02 14:04:00.926 Unity[21446:177070] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2022-05-02 14:04:00.926 Unity[21446:177070] Metal devices available: 1
-2022-05-02 14:04:00.926 Unity[21446:177070] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2022-05-02 14:04:00.927 Unity[21446:177070] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   30.0.15.1259
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56446
+Mono path[0] = 'D:/Unity/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004217 seconds.
-Native extension for OSXStandalone target not found
+Register platform support module: D:/Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001174 seconds.
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
+- Completed reload, in  0.454 seconds
 Domain Reload Profiling:
-	ReloadAssembly (846ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (454ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (648ms)
-			LoadAssemblies (115ms)
+		EndReloadAssembly (349ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (246ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (139ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007881 seconds.
+Registered in 0.002363 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fd316e82200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bcb4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd316e82200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb9e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb9e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb9e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd316e84e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb9e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31be72000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb9e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31be72000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb9e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bc00000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb9e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd316e86600 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd3153efc00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31c108000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31540e200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31c1b6000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31c24a000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.446 seconds
+- Completed reload, in  0.890 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1447ms)
-		BeginReloadAssembly (167ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1211ms)
-			LoadAssemblies (120ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (402ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (471ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Validating Project structure ... 0.012765 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.015130 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Initializing Unity extensions:
-2022-05-02 14:04:05.804 Unity[21446:177070] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000350e300 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-05-02 14:04:05.808 Unity[21446:177070] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003524540 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-========================================================================
-Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2193 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.1 MB.
-System memory in use after: 216.1 MB.
-
-Unloading 177 unused Assets to reduce memory usage. Loaded Objects now: 2658.
-Total: 5.263867 ms (FindLiveObjects: 0.194358 ms CreateObjectMapping: 0.125646 ms MarkObjects: 3.878857 ms  DeleteObjects: 1.063949 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/PPP/Snow Forest.asset
-  artifactKey: Guid(0b9d7e11a32440c4487598d993249d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/PPP/Snow Forest.asset using Guid(0b9d7e11a32440c4487598d993249d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762bfff591af632f014e482171a1fe6e') in 0.937843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000863 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings
-  artifactKey: Guid(7ca5095e4000d8445902832c0561642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings using Guid(7ca5095e4000d8445902832c0561642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6447113138411946906804ea5ffd138') in 0.000830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.068940 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Brick 01.prefab
-  artifactKey: Guid(322150d2afffae0499165da88187d1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Brick 01.prefab using Guid(322150d2afffae0499165da88187d1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd852ceb3aec16372e26d746a2ddc8f9b') in 0.139953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge 01 Pole.prefab
-  artifactKey: Guid(97a52201ad917f6499a373e31dcba8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge 01 Pole.prefab using Guid(97a52201ad917f6499a373e31dcba8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b8f37187cdff2584d18b83052fe73c') in 0.006049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Wall Cluster 01.prefab
-  artifactKey: Guid(75e2c6251130bcb41811f8f4c987792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Wall Cluster 01.prefab using Guid(75e2c6251130bcb41811f8f4c987792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed2f38c603655c6afa8f61731215f37') in 0.006000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Wall 01.prefab
-  artifactKey: Guid(a9ddfe71f21a63c46951a62411aa0529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Wall 01.prefab using Guid(a9ddfe71f21a63c46951a62411aa0529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a966e978a3b4f6df09fbe845cc4653') in 0.006566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge Cluster 03.prefab
-  artifactKey: Guid(3034ea5ea782b0d47b8c6412b061e689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge Cluster 03.prefab using Guid(3034ea5ea782b0d47b8c6412b061e689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1c491af294ca4cce78d195ba248546') in 0.006786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Pillar 02.prefab
-  artifactKey: Guid(d4d0dfb34dcab124285bceb10a346d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Pillar 02.prefab using Guid(d4d0dfb34dcab124285bceb10a346d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec7fc409dc23da6b31b8cf4a96dc82b') in 0.006123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge Cluster 02.prefab
-  artifactKey: Guid(c7438c7f7c024554b974ea237551e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge Cluster 02.prefab using Guid(c7438c7f7c024554b974ea237551e0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e05b7360c0036241bc6a1e6915a3cf6') in 0.006801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Pillar 01.prefab
-  artifactKey: Guid(46b3de001ce534d47baf0df2c6c33d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Pillar 01.prefab using Guid(46b3de001ce534d47baf0df2c6c33d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9409ba4698681ce2b922f8eb273e88e2') in 0.006038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Wall 02.prefab
-  artifactKey: Guid(3970ce57139b2a94dbe978a341396688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Wall 02.prefab using Guid(3970ce57139b2a94dbe978a341396688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a43a23395e73bc985a70a2afd8a101') in 0.005558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge 01 Mid.prefab
-  artifactKey: Guid(9ec2f9472f376124694fd230be3613d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge 01 Mid.prefab using Guid(9ec2f9472f376124694fd230be3613d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92be6cb77313aa92e9da541ba2c0e865') in 0.005452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Stone Monument 01.prefab
-  artifactKey: Guid(2b8d9a5ab95146b43b900cbe08f842cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Stone Monument 01.prefab using Guid(2b8d9a5ab95146b43b900cbe08f842cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b08ca81d7a3e1d37c61dc0d1d1b331b') in 0.093766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge Cluster 01.prefab
-  artifactKey: Guid(9bbd03df5d577c342bcd596c3e41d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge Cluster 01.prefab using Guid(9bbd03df5d577c342bcd596c3e41d906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10eba95d10508992d6899e8acbc0ff71') in 0.007029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Magical Gate 01.prefab
-  artifactKey: Guid(1f5c86bfa7f2f29449c0bce82095bf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Magical Gate 01.prefab using Guid(1f5c86bfa7f2f29449c0bce82095bf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f969562d1fa7dd7e5e6b6b9b3272118a') in 0.005927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Gate 02.prefab
-  artifactKey: Guid(3d6a8db643a0f424aad2b26a4665c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Buildings/Gate 02.prefab using Guid(3d6a8db643a0f424aad2b26a4665c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b8e9a76574d8d593767ab4e4252695') in 0.007115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 86.987774 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly
-  artifactKey: Guid(d5ba5202b919b4bb98700c977d7a853e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly using Guid(d5ba5202b919b4bb98700c977d7a853e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63043363a410edc98663eb7edbf9cba') in 0.002236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.098907 seconds.
-  path: Assets/Simone Stuff/Demo.unity
-  artifactKey: Guid(b0de0711692b843459ecac0863bcc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Demo.unity using Guid(b0de0711692b843459ecac0863bcc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6287f8fa55309213349fabfbae5f04') in 0.001874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 99.592739 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(71c36c67ef6e14c2496ec9b20f51ac95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(71c36c67ef6e14c2496ec9b20f51ac95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1213625fb8b653a581391a8c7206a13b') in 0.004191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.677735 seconds.
-  path: Assets/Practice.unity
-  artifactKey: Guid(df31229c46c9741399db71e9021f0f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Practice.unity using Guid(df31229c46c9741399db71e9021f0f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6ec874aae0a6c8fd208554dbac133a') in 0.002956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 522.760601 seconds.
-  path: Assets/Johnna Stuff/JohnnaScene.unity
-  artifactKey: Guid(d6e58b2698ef3ee4cb05836090e40f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/JohnnaScene.unity using Guid(d6e58b2698ef3ee4cb05836090e40f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279d366d03cbabeee821ee9220f99a49') in 0.014648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 150.067137 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Fences/Fence 01 Barrier 01.prefab
-  artifactKey: Guid(645563206bfc23741a4571c381af60c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Fences/Fence 01 Barrier 01.prefab using Guid(645563206bfc23741a4571c381af60c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194cb9f050615ec43c598a444ddf410c') in 0.025244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Fences/Fence Cluster 02.prefab
-  artifactKey: Guid(8494d581bee925f4b91a494cfeb81dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Fences/Fence Cluster 02.prefab using Guid(8494d581bee925f4b91a494cfeb81dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434cf25ccae3a30affc3472d40ed0d6f') in 0.009827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Fences/Fence 01 Pole.prefab
-  artifactKey: Guid(30efb25718d6f3d45a0bf02d73702045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Fences/Fence 01 Pole.prefab using Guid(30efb25718d6f3d45a0bf02d73702045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6eae140471d7516cb18fa8def3b401') in 0.018066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000863 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Fences/Fence Cluster 01.prefab
-  artifactKey: Guid(6c9604a7c30e6a64cad20fc95ffaebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Fences/Fence Cluster 01.prefab using Guid(6c9604a7c30e6a64cad20fc95ffaebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de6f4ef76a97d214669f77c78742853') in 0.011138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.750376 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/FX/FX Mist.prefab
-  artifactKey: Guid(e4d872ad31467624bbbb155f42808111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/FX/FX Mist.prefab using Guid(e4d872ad31467624bbbb155f42808111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5a508e86fe0cb2874b42576d305d91') in 0.027811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/FX/FX Snow.prefab
-  artifactKey: Guid(257c0a9751f45044a8142b6ff8527278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/FX/FX Snow.prefab using Guid(257c0a9751f45044a8142b6ff8527278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e55da5dfaf4efcc5694bcd2a2cc53f') in 0.029729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.958980 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Leaf 01.prefab
-  artifactKey: Guid(b4afdc075d3571f44a7f56f4c467c4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Leaf 01.prefab using Guid(b4afdc075d3571f44a7f56f4c467c4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0ef6e6dc7223ddfc5b78a573144688') in 0.007786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree 01.prefab
-  artifactKey: Guid(7b212449512431641b78edd71479ad17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree 01.prefab using Guid(7b212449512431641b78edd71479ad17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c308c051fd2d37e316cf5f3877b7219c') in 0.008627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000836 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Leaf 02.prefab
-  artifactKey: Guid(62302dba99ce36543b968b90b5328b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Leaf 02.prefab using Guid(62302dba99ce36543b968b90b5328b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215b309db7ebe8681440189a305e9814') in 0.014516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree 02B.prefab
-  artifactKey: Guid(e9c043aa87cb80b488ba7e9bac07e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree 02B.prefab using Guid(e9c043aa87cb80b488ba7e9bac07e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d789f4617b624b3c74c446166ebc8d4') in 0.008327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree 02A.prefab
-  artifactKey: Guid(4bd5e18c9e7d17e46962427ea44541f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree 02A.prefab using Guid(4bd5e18c9e7d17e46962427ea44541f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2be404aa3c81edaab1ca60c4a6f2f6') in 0.008928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree 02C.prefab
-  artifactKey: Guid(e0891b5148a9f254aa450b5b965d06ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree 02C.prefab using Guid(e0891b5148a9f254aa450b5b965d06ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52c9d1c3b512356b1055864b47204b6') in 0.010018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree Cluster 02.prefab
-  artifactKey: Guid(82c59f1bd0a874b4fad5a1b1b0c442af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree Cluster 02.prefab using Guid(82c59f1bd0a874b4fad5a1b1b0c442af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b95e7336e4e8874ffab5675af612275') in 0.015323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree Cluster 01.prefab
-  artifactKey: Guid(a1a4e7dd50d49d245bdbfb796050541a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Tree Cluster 01.prefab using Guid(a1a4e7dd50d49d245bdbfb796050541a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e59620144037b08d9e8b476caa8286') in 0.007279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Leaf 03.prefab
-  artifactKey: Guid(ae5d687c2596016429d759d9794e0cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Nature/Leaf 03.prefab using Guid(ae5d687c2596016429d759d9794e0cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae522128a804e24beb9dfa4d1e396aa') in 0.007734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.553412 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step 01.prefab
-  artifactKey: Guid(399cc8625e1ef9f408dbf80effd97474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step 01.prefab using Guid(399cc8625e1ef9f408dbf80effd97474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2d9a14fe739cb8a22e3e365131832c') in 0.007612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step Cluster 04.prefab
-  artifactKey: Guid(cd258bc3e4a8ab7459a3b0fe61665248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step Cluster 04.prefab using Guid(cd258bc3e4a8ab7459a3b0fe61665248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f47336a00f964012a9d99113e08982c') in 0.010277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step 02.prefab
-  artifactKey: Guid(b66ff8c46bc0b814697a4cc4a6fbff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step 02.prefab using Guid(b66ff8c46bc0b814697a4cc4a6fbff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4268df15dfebfdbb6c56ef134c63116d') in 0.017784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step Cluster 03.prefab
-  artifactKey: Guid(e01cfc9420a320c49b9698c8526e1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step Cluster 03.prefab using Guid(e01cfc9420a320c49b9698c8526e1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317b366241ad67cca5731d6a864fc395') in 0.015907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step Cluster 01.prefab
-  artifactKey: Guid(1f5c67abb6b4ec74f95c0fcf7f9629ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step Cluster 01.prefab using Guid(1f5c67abb6b4ec74f95c0fcf7f9629ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b0a5558f69484b297252c8aa65b923') in 0.011093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step Cluster 02.prefab
-  artifactKey: Guid(c5f08236c9d42424b8cb96ed3204b17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Steps/Step Cluster 02.prefab using Guid(c5f08236c9d42424b8cb96ed3204b17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0af5033e71e7f1ac21df16e3d561ce') in 0.008517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.515343 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Ground 01.prefab
-  artifactKey: Guid(ac6d3527a7d8a00489d4c1cef21ccbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Ground 01.prefab using Guid(ac6d3527a7d8a00489d4c1cef21ccbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e67d04ac25524d18e901d1a85ccd7b') in 0.007296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock Cluster 01.prefab
-  artifactKey: Guid(fa91b995bb7dfa24f9005e066173bf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock Cluster 01.prefab using Guid(fa91b995bb7dfa24f9005e066173bf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70446cb390d9a78c02ab0b1243769699') in 0.015906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Rock Cluster 02.prefab
-  artifactKey: Guid(11a5481d6fca2064b8c49f5ad1e19ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Rock Cluster 02.prefab using Guid(11a5481d6fca2064b8c49f5ad1e19ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcd65b661f298d9ffbf78244083aa85') in 0.017144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000995 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock Cluster 02.prefab
-  artifactKey: Guid(0caf95fbb85b05c40920e8128d6a9e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock Cluster 02.prefab using Guid(0caf95fbb85b05c40920e8128d6a9e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc37213cc446a0442512cdae0a9383e') in 0.007916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock 01.prefab
-  artifactKey: Guid(5a0d4f609342eff4e9e7ad91d3c6567c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock 01.prefab using Guid(5a0d4f609342eff4e9e7ad91d3c6567c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d577c6f154cb8abb641d6790fafb64') in 0.008312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock 02.prefab
-  artifactKey: Guid(6890053fe448e1d4bae5f4ef408b9879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock 02.prefab using Guid(6890053fe448e1d4bae5f4ef408b9879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f49fcdc127c19d31389426c58b732e') in 0.007234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Rock 01.prefab
-  artifactKey: Guid(e0292707675597145ba230d91aecd3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Rock 01.prefab using Guid(e0292707675597145ba230d91aecd3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9460801497077edae390b44fe8262136') in 0.007260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock Cluster 04.prefab
-  artifactKey: Guid(7ce066cde88d3954abed55c49a2dd04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock Cluster 04.prefab using Guid(7ce066cde88d3954abed55c49a2dd04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc50780e03195168a7fd753b62c38ef9') in 0.009431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Clump 01.prefab
-  artifactKey: Guid(be5ec4d37c0e5a04eaecea54684dd13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Clump 01.prefab using Guid(be5ec4d37c0e5a04eaecea54684dd13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8493fd70968cb0c10257c4436f2ddf') in 0.009252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Rock Cluster 03.prefab
-  artifactKey: Guid(ebfe72e2419c3114aa46339b2d9472b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Rock Cluster 03.prefab using Guid(ebfe72e2419c3114aa46339b2d9472b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be92eccf136ce7b0b2f53a462c6a600') in 0.006075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock Cluster 03.prefab
-  artifactKey: Guid(713e8ce3dd44ae34b915a88557577344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Snow Rock Cluster 03.prefab using Guid(713e8ce3dd44ae34b915a88557577344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba25fd18e86c37f2372fe25a4f3b5e58') in 0.006719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Rock Cluster 01.prefab
-  artifactKey: Guid(81ed7077a20aa924db18d19321b0a400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Forest/Snow Forest Pack Cute Series/Prefabs/Terrain/Rock Cluster 01.prefab using Guid(81ed7077a20aa924db18d19321b0a400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1db5750ef534c2779d02d25dac3142') in 0.007269 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006471 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0x7fd31d8cb200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b760000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31d0aea00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b687000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b687000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b687000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31d0aea00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b687000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b91e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b687000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b91e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b687000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6d4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b687000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31e314c00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31ea52000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bac0000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31ea0f200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb52000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bbc8000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-05-02 14:25:50.199 Unity[21446:177070] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003545ea0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.692 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1695ms)
-		BeginReloadAssembly (296ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (1325ms)
-			LoadAssemblies (196ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (484ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (462ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (334ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 221.4 MB.
-System memory in use after: 221.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 6.645657 ms (FindLiveObjects: 0.418043 ms CreateObjectMapping: 0.247446 ms MarkObjects: 5.929668 ms  DeleteObjects: 0.049267 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002153 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0x7fd31e541600 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b72c000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31e541600 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b69b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b69b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b69b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31e547a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b69b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b928000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b69b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b928000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b69b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6e8000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b69b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31e550200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31e50d400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31ba0e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31e548a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb8e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bba8000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-05-02 14:25:57.081 Unity[21446:177070] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003520770 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.263 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1263ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1065ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (401ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 222.4 MB.
-System memory in use after: 222.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2690.
-Total: 3.398408 ms (FindLiveObjects: 0.185048 ms CreateObjectMapping: 0.093387 ms MarkObjects: 3.086962 ms  DeleteObjects: 0.032255 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 542.433471 seconds.
-  path: Assets/tutorial level/Demo Scene.unity
-  artifactKey: Guid(5d5471248510e5945a95df196df0ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tutorial level/Demo Scene.unity using Guid(5d5471248510e5945a95df196df0ba75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24692cb3d824fde5c3a5df1f309a52') in 0.014337 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001243 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0x7fd3151d7a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b740000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd3169e6400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd316e13000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b93c000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b93c000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6fc000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd315516e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd3151d7a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31ba97000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd3151d7a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bb0b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bba8000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-05-02 14:31:06.526 Unity[21446:177070] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003575ea0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.463 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1464ms)
+	ReloadAssembly (891ms)
 		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1272ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (433ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (441ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (305ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 222.6 MB.
-System memory in use after: 222.8 MB.
+Unloading 2178 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.8 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2703.
-Total: 3.849465 ms (FindLiveObjects: 0.195849 ms CreateObjectMapping: 0.102656 ms MarkObjects: 3.525073 ms  DeleteObjects: 0.024703 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2618.
+Total: 2.325600 ms (FindLiveObjects: 0.144600 ms CreateObjectMapping: 0.076400 ms MarkObjects: 2.051700 ms  DeleteObjects: 0.052200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 225.061613 seconds.
-  path: Assets/Johnna Stuff/JohnnaScene.unity
-  artifactKey: Guid(d6e58b2698ef3ee4cb05836090e40f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/JohnnaScene.unity using Guid(d6e58b2698ef3ee4cb05836090e40f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb10b7e3f91e41bd4fa1ca203c4a78d9') in 0.020956 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005675 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0x7fd317d78e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b740000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd317106a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd316696e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b93c000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b93c000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6fc000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31b6af000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd316696e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd317d78e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31ba22000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31e43e400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bcdd000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd31bcf7000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-05-02 14:39:20.257 Unity[21446:177070] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003544c40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.596 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1599ms)
-		BeginReloadAssembly (298ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (129ms)
-		EndReloadAssembly (1215ms)
-			LoadAssemblies (183ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (421ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (428ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 223.4 MB.
-System memory in use after: 223.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2716.
-Total: 3.916457 ms (FindLiveObjects: 0.301322 ms CreateObjectMapping: 0.118130 ms MarkObjects: 3.466610 ms  DeleteObjects: 0.029428 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Assets/StarterAssets/houses/Models/05_House/05_House.FBX
+  artifactKey: Guid(2db368f591ec944fe91a76726612f903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/houses/Models/05_House/05_House.FBX using Guid(2db368f591ec944fe91a76726612f903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f3edbc3c2467d4fae1ed81c3c25ab1') in 2.381251 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1024.570503 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Maps
-  artifactKey: Guid(f12136fc71588a14aabd42f9df95c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Maps using Guid(f12136fc71588a14aabd42f9df95c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c46472bdc9eb3cf80a261932bcb0c3') in 0.010597 seconds 
+  Time since last request: 9.407686 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_AlbedoTransparency.tif
+  artifactKey: Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_AlbedoTransparency.tif using Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09524cadc981d3e0be4441a4bb79a716') in 0.036023 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.692152 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Materials
-  artifactKey: Guid(9e4ed0c303eeca0498864725b3804faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Materials using Guid(9e4ed0c303eeca0498864725b3804faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734e67ca225f34cde5976a68e1a0dfd1') in 0.001715 seconds 
+  Time since last request: 0.000090 seconds.
+  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge 01 Pole.prefab
+  artifactKey: Guid(97a52201ad917f6499a373e31dcba8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/Prefabs/Buildings/Bridge 01 Pole.prefab using Guid(97a52201ad917f6499a373e31dcba8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92a2d5130a24a005294e5baf00e70b9') in 0.014549 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.083319 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Materials/M_Ground.mat
-  artifactKey: Guid(66c7dbe36cfd0b9429efe251cec3b33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Materials/M_Ground.mat using Guid(66c7dbe36cfd0b9429efe251cec3b33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185ca910df7dbd1a9d6e85f11e959c27') in 0.262097 seconds 
+  Time since last request: 0.000107 seconds.
+  path: Assets/tutorial level/Low Poly Western Saloon/Components/Models/cup.fbx
+  artifactKey: Guid(8332c80df391af54a8a915addc602803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon/Components/Models/cup.fbx using Guid(8332c80df391af54a8a915addc602803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae3c812be0dc74cc725bcf5e32e3769') in 0.020173 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Materials/T_Generic_colors.mat
-  artifactKey: Guid(d26653261fd014a4388956425a2f459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Materials/T_Generic_colors.mat using Guid(d26653261fd014a4388956425a2f459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32725d23cd0de5a0eab1491cf5285cf2') in 0.046808 seconds 
+  Time since last request: 0.000138 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab
+  artifactKey: Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab using Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385159d986867edf2307798d874bfb92') in 0.073415 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.611958 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Alcove_01.fbx
-  artifactKey: Guid(0a1bf957c3fed784d9d4fea3de9f14b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Alcove_01.fbx using Guid(0a1bf957c3fed784d9d4fea3de9f14b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d157072ae2d2801f9da229be4243e2') in 0.406421 seconds 
+  Time since last request: 0.000110 seconds.
+  path: Assets/tutorial level/Low Poly Western Saloon/Components/Models/cup_filled.fbx
+  artifactKey: Guid(48daf1953d703084098600ea2faf53c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon/Components/Models/cup_filled.fbx using Guid(48daf1953d703084098600ea2faf53c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846053217a4007194aab8a77e19a9942') in 0.019698 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_03.fbx
-  artifactKey: Guid(98f65074abe560440823405d5fe061e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_03.fbx using Guid(98f65074abe560440823405d5fe061e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80152ee87e997ed8e73445c9b7bcf264') in 0.058532 seconds 
+  Time since last request: 0.000190 seconds.
+  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Bridge 01 Pole.FBX
+  artifactKey: Guid(dd698ce29d85f654cb36050859f9b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Bridge 01 Pole.FBX using Guid(dd698ce29d85f654cb36050859f9b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc3afd3110e95ecaec6eaf13ca09a99') in 0.020693 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_05.fbx
-  artifactKey: Guid(95c0e3c9552815347a0d35c59b6817d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_05.fbx using Guid(95c0e3c9552815347a0d35c59b6817d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a447bc70f3bd2c6983a3f4b5ca7d232d') in 0.050639 seconds 
+  Time since last request: 0.000106 seconds.
+  path: Assets/StarterAssets/houses/Models/01_House/01_House.FBX
+  artifactKey: Guid(8bc547f2300214edfa282f75ef0e4d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/houses/Models/01_House/01_House.FBX using Guid(8bc547f2300214edfa282f75ef0e4d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd979634915daaa6df9b175a3a41177a8') in 2.714156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Rings_Crossbar_01.fbx
-  artifactKey: Guid(7dc297aa375de4c429978746ed7fa615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Rings_Crossbar_01.fbx using Guid(7dc297aa375de4c429978746ed7fa615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4c6cbecae283e937c92c14be32b825') in 0.028916 seconds 
+  Time since last request: 0.000231 seconds.
+  path: Assets/StarterAssets/houses/Models/04_House/04_House.FBX
+  artifactKey: Guid(27cf0c56748f14de99067ec89797ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/houses/Models/04_House/04_House.FBX using Guid(27cf0c56748f14de99067ec89797ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87da85a394fe58fc5e592f43f4346e10') in 3.249661 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Flowers_03.fbx
-  artifactKey: Guid(eb0571e52ebe9674498ef8619ef1220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Flowers_03.fbx using Guid(eb0571e52ebe9674498ef8619ef1220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7341cbc2a326f40849c18b80318746e2') in 0.057072 seconds 
+  Time since last request: 0.000144 seconds.
+  path: Assets/StarterAssets/houses/Models/03_House/03_House.FBX
+  artifactKey: Guid(8d0fb992838c8466a916fba9186dbe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/houses/Models/03_House/03_House.FBX using Guid(8d0fb992838c8466a916fba9186dbe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeef3343de89e5e14a9ffa43325723db') in 0.249167 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Game_Stairs_01.fbx
-  artifactKey: Guid(b32f3730180a2c34289e0bd9b6a6a503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Game_Stairs_01.fbx using Guid(b32f3730180a2c34289e0bd9b6a6a503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a504409e1b8074a88fd87293641426') in 0.023250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Border_100.fbx
-  artifactKey: Guid(be15455a1c1e56b42bd44be5c7a9c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Border_100.fbx using Guid(be15455a1c1e56b42bd44be5c7a9c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5782c5ae5510b8cb7594d38d37125a9') in 0.064210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Stand_01.fbx
-  artifactKey: Guid(cf6c70f794d8de74b8d13bcb2985a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Stand_01.fbx using Guid(cf6c70f794d8de74b8d13bcb2985a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751c982c8ccd02479f8e15972a51332f') in 0.017499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Border_40.fbx
-  artifactKey: Guid(39b353bb93289c34f98ab3e080588e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Border_40.fbx using Guid(39b353bb93289c34f98ab3e080588e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1053ef5ed418b3a2aa212413c75c7cd5') in 0.035763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Stand_02.fbx
-  artifactKey: Guid(5f7dc663726b89f4faad6721996b0afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Stand_02.fbx using Guid(5f7dc663726b89f4faad6721996b0afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8770885c778a7ed72bb83778e47a5f') in 0.046926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Border_01.fbx
-  artifactKey: Guid(712fc4950afceef48918481c2fa12b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Border_01.fbx using Guid(712fc4950afceef48918481c2fa12b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e209091619bd5633dfe752fd8edff1a2') in 0.022458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Chair_02.fbx
-  artifactKey: Guid(57d808bde2db5244b868f85a8eafd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Chair_02.fbx using Guid(57d808bde2db5244b868f85a8eafd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835e1a3f3c540cc2390bfbb872bdc3f1') in 0.041758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Archway_01.fbx
-  artifactKey: Guid(1f151b5ab17f5d947ae6b47a6d4fd3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Archway_01.fbx using Guid(1f151b5ab17f5d947ae6b47a6d4fd3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487966fd0db7750fe3f0d3546f34aed2') in 0.047248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Ball_01.fbx
-  artifactKey: Guid(a462125ec2e509c44a3b85314faa2404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Ball_01.fbx using Guid(a462125ec2e509c44a3b85314faa2404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4df0cc44fd5da5e6d014211158f62e1') in 0.039358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_04.fbx
-  artifactKey: Guid(d277ba48b401c59458e3067c376d6129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_04.fbx using Guid(d277ba48b401c59458e3067c376d6129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1091161c5f914ef6aefd8f16e02fba') in 0.057179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Sandbox_03.fbx
-  artifactKey: Guid(39c31a6817c7f32448f89956fbdfde69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Sandbox_03.fbx using Guid(39c31a6817c7f32448f89956fbdfde69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2c5e23e535e8bc5693c528d6684822') in 0.021551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Border_200.fbx
-  artifactKey: Guid(6c52e4dfb482d094cad02506fcc2c476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Border_200.fbx using Guid(6c52e4dfb482d094cad02506fcc2c476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea438707bdb503a20be5954dc3ddb8d0') in 0.053697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Grass_01.fbx
-  artifactKey: Guid(4b291fa98f1e47b4bafa58425ac3c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Grass_01.fbx using Guid(4b291fa98f1e47b4bafa58425ac3c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6ea10f1804a3bdd00dd700cd2ebf0b') in 0.041796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Bench_01.fbx
-  artifactKey: Guid(a3df7d524c485ac45a6a1f6d4f4eaf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Bench_01.fbx using Guid(a3df7d524c485ac45a6a1f6d4f4eaf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e975f97e5bba26877ea1b986594a0e3f') in 0.019494 seconds 
+  Time since last request: 0.000109 seconds.
+  path: Assets/StarterAssets/houses/Models/02_House/02_House.FBX
+  artifactKey: Guid(22d723f05f16746e8b6d7fa537668cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/houses/Models/02_House/02_House.FBX using Guid(22d723f05f16746e8b6d7fa537668cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad294361f32e2f8e6415cb2f38cc414') in 2.576487 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000191 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Crossbar_Stairs_01.fbx
-  artifactKey: Guid(74b50884c070cde44ad6f8905fcdef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Crossbar_Stairs_01.fbx using Guid(74b50884c070cde44ad6f8905fcdef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6020a947285ade1aaf09e4eb6e913b') in 0.059762 seconds 
+  path: Assets/tutorial level/Low Poly Western Saloon/Prefabs/Glasses & Cups/Cup Filled.prefab
+  artifactKey: Guid(46bd10ee869a1404fab181d38a994453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon/Prefabs/Glasses & Cups/Cup Filled.prefab using Guid(46bd10ee869a1404fab181d38a994453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab577b8dbdfa850e629c0c52b0a603d2') in 0.013603 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Flowers_01.fbx
-  artifactKey: Guid(ca09df2881c3f7e448f5248f16288f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Flowers_01.fbx using Guid(ca09df2881c3f7e448f5248f16288f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f11f5c43b7077cf4ea6a9a41bb93908') in 0.030261 seconds 
+  Time since last request: 0.000158 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_AlbedoTransparency.tif
+  artifactKey: Guid(28d78c5517421f047b88352f3b18e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_AlbedoTransparency.tif using Guid(28d78c5517421f047b88352f3b18e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e694494e350d288d83cef3c0374d446') in 0.017525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Sandbox_01.fbx
-  artifactKey: Guid(541dd5bd4d8e6f148b0d765a4325a23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Sandbox_01.fbx using Guid(541dd5bd4d8e6f148b0d765a4325a23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27da936ea96e1ae2eaa3e203240d9a05') in 0.022820 seconds 
+  Time since last request: 0.000155 seconds.
+  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Fence 01 Pole.FBX
+  artifactKey: Guid(1e9ce5f8bd3394e4cbdc3fcb01610f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Fence 01 Pole.FBX using Guid(1e9ce5f8bd3394e4cbdc3fcb01610f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f018e71bd8a3ddde943b44e8a7f380') in 0.017043 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Railings_01.fbx
-  artifactKey: Guid(048358964bac22d47abddeabc9d5b61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Railings_01.fbx using Guid(048358964bac22d47abddeabc9d5b61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0536b6d8f3f99c4d1ced39c5a70e879b') in 0.038035 seconds 
+  Time since last request: 0.000108 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
+  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f7ca36ba2f2d1f078e52850cd26e8d') in 0.012614 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Railings_220.fbx
-  artifactKey: Guid(494b22d20795e3e4f80313650fefc21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Railings_220.fbx using Guid(494b22d20795e3e4f80313650fefc21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a85cb53a03efc6aec3d9d24ca826204') in 0.021215 seconds 
+  Time since last request: 0.000094 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab
+  artifactKey: Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab using Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fb2ee11fa2035e4cc0f795aa73a436') in 0.014377 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Railings_Angle_01.fbx
-  artifactKey: Guid(ec35da3e8fe34b44ba9b9c880ec0cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Railings_Angle_01.fbx using Guid(ec35da3e8fe34b44ba9b9c880ec0cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85832c313df38b449d05ec06b86fd1eb') in 0.031659 seconds 
+  Time since last request: 0.000099 seconds.
+  path: Assets/tutorial level/Low Poly Western Saloon/Prefabs/Glasses & Cups/Cup.prefab
+  artifactKey: Guid(7025348d0af61bd42bd56ce69c40b9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon/Prefabs/Glasses & Cups/Cup.prefab using Guid(7025348d0af61bd42bd56ce69c40b9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5b067a8da2f35356457c946f36e3ff') in 0.012113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Ken Stuff/Resources/Textures/Atmosphere.png
+  artifactKey: Guid(641f258e2bf363c47a055f924fa6a710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Resources/Textures/Atmosphere.png using Guid(641f258e2bf363c47a055f924fa6a710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33d4b695ecfb5da1307b4a1c13521df') in 0.033802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Ken Stuff/Resources/Materials/RollingWorld/World/AtmosphereMaterial.mat
+  artifactKey: Guid(42aba00089be8f044aedf7a288be8dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Resources/Materials/RollingWorld/World/AtmosphereMaterial.mat using Guid(42aba00089be8f044aedf7a288be8dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcb7da5d93eaf4d6454457e44478740') in 0.024821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab
+  artifactKey: Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab using Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ed81a97a4978ff027738463e385e34') in 0.013025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat
+  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668c5f0b52180bd921c51964265957b2') in 0.030179 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000187 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_01.fbx
-  artifactKey: Guid(c8819bc7a12e73c43bd593b160d1439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_01.fbx using Guid(c8819bc7a12e73c43bd593b160d1439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecc51b8326491f4643e8228f8568b2d') in 0.031743 seconds 
+  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/Prefabs/Fences/Fence 01 Pole.prefab
+  artifactKey: Guid(30efb25718d6f3d45a0bf02d73702045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/Prefabs/Fences/Fence 01 Pole.prefab using Guid(30efb25718d6f3d45a0bf02d73702045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1143b9fa4072259f2aa43ec43aa2b77') in 0.010528 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Bench_02.fbx
-  artifactKey: Guid(b8061b4d75216b644bb0bf8d8e3793f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Bench_02.fbx using Guid(b8061b4d75216b644bb0bf8d8e3793f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942ef3186d3d47d523ab9328cd2dc753') in 0.020882 seconds 
+  Time since last request: 0.000133 seconds.
+  path: Assets/Ken Stuff/Resources/Materials/RollingWorld/Player/EyesPupilMaterial.mat
+  artifactKey: Guid(dff7077d515b2514b9a091fdafe360f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Resources/Materials/RollingWorld/Player/EyesPupilMaterial.mat using Guid(dff7077d515b2514b9a091fdafe360f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d99a642e033f0185d2e7846aaa40b9') in 0.010632 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Chair_01.fbx
-  artifactKey: Guid(3d6ecf41db414bc4c97207b24a3e1958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Chair_01.fbx using Guid(3d6ecf41db414bc4c97207b24a3e1958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5b767bd40acea303e16828781a2deb') in 0.052531 seconds 
+  Time since last request: 0.000096 seconds.
+  path: Assets/tutorial level/Low Poly Western Saloon/Components/Materials/Particles/Flame Particle Material.mat
+  artifactKey: Guid(101e8eb1696dfa94fa89ff894e9c6be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tutorial level/Low Poly Western Saloon/Components/Materials/Particles/Flame Particle Material.mat using Guid(101e8eb1696dfa94fa89ff894e9c6be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c47da6965c2f9ff685576f66632eb71') in 0.028712 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Grass_02.fbx
-  artifactKey: Guid(24dd21c0ae0b5d54889c43cdb0b95bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Grass_02.fbx using Guid(24dd21c0ae0b5d54889c43cdb0b95bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6638ed91ba552ec1b99a14a6f96c3bf7') in 0.048622 seconds 
+  Time since last request: 0.000157 seconds.
+  path: Assets/StarterAssets/houses/Models/01_House/Material/Wall Pannel.mat
+  artifactKey: Guid(74f068bbb03d242268aea20befcc826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/houses/Models/01_House/Material/Wall Pannel.mat using Guid(74f068bbb03d242268aea20befcc826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a831838d17611fdd0dd00067748492fe') in 0.011695 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Bench_03.fbx
-  artifactKey: Guid(ebadb9c977152084ba97149db0c9fbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Bench_03.fbx using Guid(ebadb9c977152084ba97149db0c9fbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cb1128afb60cbe40e3265c1eadd432') in 0.029249 seconds 
+  Time since last request: 0.000151 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif
+  artifactKey: Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif using Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693187f9138b385b601995b8228717b8') in 0.016391 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_02.fbx
-  artifactKey: Guid(5d3ea55ed58ec6641a21066ef8059fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Playground_02.fbx using Guid(5d3ea55ed58ec6641a21066ef8059fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67af5751b2d800def6cc58bebf3fd736') in 0.032220 seconds 
+  Time since last request: 0.000099 seconds.
+  path: Assets/Ken Stuff/Resources/Materials/RollingWorld/Flower/FlowerPetalMaterial.mat
+  artifactKey: Guid(9537af550689f7045b4fb351b9466b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Resources/Materials/RollingWorld/Flower/FlowerPetalMaterial.mat using Guid(9537af550689f7045b4fb351b9466b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a394d419082b60ab38d74868fe89442') in 0.009023 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Flowers_02.fbx
-  artifactKey: Guid(176f37afc3bb6a84a85b0178601adf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Flowers_02.fbx using Guid(176f37afc3bb6a84a85b0178601adf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16361518cc61464feaadbb260a10c4d9') in 0.047955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Lamp_01.fbx
-  artifactKey: Guid(f6a982d0e7f320c40a63ad112e1d9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Lamp_01.fbx using Guid(f6a982d0e7f320c40a63ad112e1d9d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9aaed18f1c9d61ebf45b394d87106e') in 0.025887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Sandbox_02.fbx
-  artifactKey: Guid(33fe60fe16f2c8049b02271382fb4d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Sandbox_02.fbx using Guid(33fe60fe16f2c8049b02271382fb4d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275284340c053600c77fd2fd8e501abc') in 0.033887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Game_Piramid_01.fbx
-  artifactKey: Guid(eaf645a9b6b38d441ad0ddc67b4e228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Game_Piramid_01.fbx using Guid(eaf645a9b6b38d441ad0ddc67b4e228f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb0007816f9b2e274e984ef67af8e86') in 0.039019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Grass_03.fbx
-  artifactKey: Guid(8456ef77cb916964c828fb5eba04d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Grass_03.fbx using Guid(8456ef77cb916964c828fb5eba04d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740379b2a0155c21f4ffeb3f78c1064d') in 0.041145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Box_Ground_01.FBX
-  artifactKey: Guid(af7887a0e8953b445b840e8dcca80810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simone Stuff/Playground Low Poly/Meshes/SM_Box_Ground_01.FBX using Guid(af7887a0e8953b445b840e8dcca80810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd13f872b999685bcb35ab8324e6c1a') in 0.340271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 437.096438 seconds.
-  path: Assets/Johnna Stuff/Environment
-  artifactKey: Guid(5a96c8ef842d44359b9945aae03fd5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment using Guid(5a96c8ef842d44359b9945aae03fd5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96bb238381e79519d093ca46c9e0be9') in 0.003956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.055041 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Brick 01.FBX
-  artifactKey: Guid(901c32d0528f422458a6e74021d33750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Brick 01.FBX using Guid(901c32d0528f422458a6e74021d33750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea0925fb7c754d3dc84f800c42a9e89') in 0.046851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Step 02.FBX
-  artifactKey: Guid(2e27b019853b65f4298d763359179c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Step 02.FBX using Guid(2e27b019853b65f4298d763359179c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee84fecf85e4c3b97346bff3c032ed1a') in 0.039486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Leaf 01.FBX
-  artifactKey: Guid(56f131cfdf85e224ebda5c7242730a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Leaf 01.FBX using Guid(56f131cfdf85e224ebda5c7242730a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742af8af991d50a4dc5a154ada66cf93') in 0.023453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Bridge 01 Pole.FBX
-  artifactKey: Guid(dd698ce29d85f654cb36050859f9b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Bridge 01 Pole.FBX using Guid(dd698ce29d85f654cb36050859f9b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a4cfabd1e770e34e40c0f58f4a25c3') in 0.067818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Step 01.FBX
-  artifactKey: Guid(d455e0fa5e02c534d99299f233b0dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Step 01.FBX using Guid(d455e0fa5e02c534d99299f233b0dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520ec8105a1b56ddedff891c9b764c7b') in 0.068844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Step 03.FBX
-  artifactKey: Guid(ac1a28aad6cbf5b4695c1381ebd20add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Step 03.FBX using Guid(ac1a28aad6cbf5b4695c1381ebd20add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51eca4aceec0a4889cbcc1597ad3e7e8') in 0.060976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Snow Rock 01.FBX
-  artifactKey: Guid(b946441aa107f734093b80a2f7378892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Snow Rock 01.FBX using Guid(b946441aa107f734093b80a2f7378892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad8f561ad2efe816eae20fd83690e49') in 0.035022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Leaf 03.FBX
-  artifactKey: Guid(364ebee528a0007429b3e494bc0b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Leaf 03.FBX using Guid(364ebee528a0007429b3e494bc0b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064d45d9fcf70da03d8c7ef778f45375') in 0.037917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Snow Rock 02.FBX
-  artifactKey: Guid(a34de7967ec20b943b6715cbd9f00c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Snow Rock 02.FBX using Guid(a34de7967ec20b943b6715cbd9f00c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ca4751747ddc16961830d1fd489077') in 0.063018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Fence 01 Pole.FBX
-  artifactKey: Guid(1e9ce5f8bd3394e4cbdc3fcb01610f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Fence 01 Pole.FBX using Guid(1e9ce5f8bd3394e4cbdc3fcb01610f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e85a7aacc4d54e0afe565b8e67d070e') in 0.042417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Tree 02.FBX
-  artifactKey: Guid(e0f77ebde4e09d54389e03991472a223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Tree 02.FBX using Guid(e0f77ebde4e09d54389e03991472a223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c8f816364ce802aa9ba5f052e598c3') in 0.058570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Rock 01.FBX
-  artifactKey: Guid(da981305f30bd694487015135d4171ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Rock 01.FBX using Guid(da981305f30bd694487015135d4171ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452a77e52b986674d2f3325174bbbd67') in 0.027682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Fence 01 Barrier 01.FBX
-  artifactKey: Guid(94058d6989c932743b83440eb5863897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Fence 01 Barrier 01.FBX using Guid(94058d6989c932743b83440eb5863897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f55cd2fb478ee32051da75ece2c791') in 0.052378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Bridge 01 Mid.FBX
-  artifactKey: Guid(7d768beb1a869c944aa299dfe804aa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Bridge 01 Mid.FBX using Guid(7d768beb1a869c944aa299dfe804aa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c514d178eda995b8eabfc9df58a13f') in 0.054985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Gate 02.FBX
-  artifactKey: Guid(0386a4f8281526348ad5d9241ef00f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Gate 02.FBX using Guid(0386a4f8281526348ad5d9241ef00f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30276507e4e1da793784563c948ae30') in 0.039956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Magical Gate 01.FBX
-  artifactKey: Guid(1a78a485e1bf7454dad60e2267b68cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Magical Gate 01.FBX using Guid(1a78a485e1bf7454dad60e2267b68cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52794085e1fb2266ac4cb11f2e30f65') in 0.043120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Snow Clump 01.FBX
-  artifactKey: Guid(82df7f6b142379d448da6dde6a7a73df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Snow Clump 01.FBX using Guid(82df7f6b142379d448da6dde6a7a73df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3e97560fac29de57786a6c302fb596') in 0.053521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Leaf 02.FBX
-  artifactKey: Guid(4bf3bf059cbbc29439aba2d7c0b9667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Leaf 02.FBX using Guid(4bf3bf059cbbc29439aba2d7c0b9667f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5c72fc3fab9911688f3c7f44d89b11') in 0.053984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Wall 01.FBX
-  artifactKey: Guid(ba2133f48599257478972f3e6e2d3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Wall 01.FBX using Guid(ba2133f48599257478972f3e6e2d3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76455c6b7f6ce6ee6a4981762f1dd5e2') in 0.022800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Pillar 01.FBX
-  artifactKey: Guid(95a51da18efbfdd4f985b4bc1c20b062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Pillar 01.FBX using Guid(95a51da18efbfdd4f985b4bc1c20b062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2321a23da1b4e40e055ed54b4676680d') in 0.068149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Pillar 02.FBX
-  artifactKey: Guid(dd4775c78339565439dfd34a679d2823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Pillar 02.FBX using Guid(dd4775c78339565439dfd34a679d2823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9520bbbb877906da206aec135cec30ac') in 0.044202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Stone Monument 01.FBX
-  artifactKey: Guid(ebde80811669b4f4db75829501bafac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Stone Monument 01.FBX using Guid(ebde80811669b4f4db75829501bafac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227988b89195b0305ead41c4c41b05ab') in 0.038188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Wall 02.FBX
-  artifactKey: Guid(fe3aa353f63c15e4a9a125e44097c8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series/FBX/Wall 02.FBX using Guid(fe3aa353f63c15e4a9a125e44097c8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23197429036597e9e6e123979da549d8') in 0.061563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.864766 seconds.
-  path: Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series
-  artifactKey: Guid(1add193035f3e4a5bb94324917b010a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Johnna Stuff/Environment/Snow Forest Pack Cute Series using Guid(1add193035f3e4a5bb94324917b010a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24da58691fcb6d28652227d0160bfb5f') in 0.001623 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (787ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.0 MB.
+System memory in use after: 108.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2668.
+Total: 2.291500 ms (FindLiveObjects: 0.147600 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.051100 ms  DeleteObjects: 0.020400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
