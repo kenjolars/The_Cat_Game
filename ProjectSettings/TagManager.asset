@@ -6,9 +6,6 @@ TagManager:
   tags:
   - World
   - Planet
-  - CinemachineTarget
-  - Cat
-  - Trigger
   layers:
   - Default
   - TransparentFX
