@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Lowpoly Toon Cat Lite/Demo/Cat_Lite_Demo.unity
+- path: Assets/Johnna Stuff/JohnnaScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
