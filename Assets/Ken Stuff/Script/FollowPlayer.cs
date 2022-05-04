@@ -33,11 +33,12 @@ public class FollowPlayer : MonoBehaviour
         }
     }
 
-    void OnTriggerStay(Collider other)
+    /*void OnTriggerEnter(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.E) && other.gameObject.tag == "Player")
+        if (Input.GetKeyDown(KeyCode.E) && other.tag == "Player")
         {
+            nav.SetDestination(targetPlayer.position);
             Debug.Log("Pet will start following");
         }
-    }
+    }*/
 }

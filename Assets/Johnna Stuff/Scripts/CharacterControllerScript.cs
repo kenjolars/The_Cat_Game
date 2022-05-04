@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CharacterControllerScript : MonoBehaviour
 {
+    private int jumptCount;
     public float speed = .1f;
-    
+
     // Update is called once per frame
     void Update ()
     {
