@@ -2034,3 +2034,1397 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae4ce69200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4b771200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ce3a600 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4b772a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae527ec400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe17000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4b779400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff65000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 12:40:21.497 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e545b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.049 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3055ms)
+		BeginReloadAssembly (417ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (194ms)
+		EndReloadAssembly (2519ms)
+			LoadAssemblies (227ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (851ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (537ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (347ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.5 MB.
+System memory in use after: 268.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2921.
+Total: 10.565174 ms (FindLiveObjects: 0.974049 ms CreateObjectMapping: 0.107957 ms MarkObjects: 9.424010 ms  DeleteObjects: 0.058026 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008961 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae51748000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bfcde00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4a54aa00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bfd3e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bfc1c00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe8b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae51748000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff4b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 12:41:25.402 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e75f10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2835ms)
+		BeginReloadAssembly (410ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (181ms)
+		EndReloadAssembly (2310ms)
+			LoadAssemblies (279ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (829ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (785ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (571ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (60ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.8 MB.
+System memory in use after: 269.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2934.
+Total: 6.287122 ms (FindLiveObjects: 0.433677 ms CreateObjectMapping: 0.186761 ms MarkObjects: 5.590161 ms  DeleteObjects: 0.075061 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3748.204321 seconds.
+  path: Assets/Ken Stuff/Other Scripts/PlayerController.cs
+  artifactKey: Guid(bf7a15d9aa0c23447b37835f1f5a7cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Other Scripts/PlayerController.cs using Guid(bf7a15d9aa0c23447b37835f1f5a7cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4307e85ee0d716bc0f564d193bd55ca') in 0.609214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.184765 seconds.
+  path: Assets/Johnna Stuff/Scripts
+  artifactKey: Guid(eb9e9ef74b3a8419e9a44bc03d27ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Scripts using Guid(eb9e9ef74b3a8419e9a44bc03d27ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a51a9928062d85fd2d6d6b762ea345') in 0.018847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.582349 seconds.
+  path: Assets/Johnna Stuff/Scripts/PlayerController.cs
+  artifactKey: Guid(9ef577783890444029c2a44a72db2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Scripts/PlayerController.cs using Guid(9ef577783890444029c2a44a72db2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4d66abfc7286f5bdcdf02fe7fa6cbb') in 0.022120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.508040 seconds.
+  path: Assets/Johnna Stuff/Scripts/PlayerController.cs
+  artifactKey: Guid(9ef577783890444029c2a44a72db2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Scripts/PlayerController.cs using Guid(9ef577783890444029c2a44a72db2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb9e9d77348cc39287e13ef49463f52') in 0.026476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.141910 seconds.
+  path: Assets/Johnna Stuff/Scripts/CharacterController.cs
+  artifactKey: Guid(9ef577783890444029c2a44a72db2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Scripts/CharacterController.cs using Guid(9ef577783890444029c2a44a72db2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70878946e2aae0a0e9c29dbf1ed379b0') in 0.005542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.879426 seconds.
+  path: Assets/Ken Stuff/Prefab/Third Person Camera.prefab
+  artifactKey: Guid(274cf5f7f70e5eb40a18fef40a5ad228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Prefab/Third Person Camera.prefab using Guid(274cf5f7f70e5eb40a18fef40a5ad228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9e92202b256c3bbe2a90595e851e5d') in 0.476324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Ken Stuff/Prefab/Third Person Player.prefab
+  artifactKey: Guid(46af79cff279bc34584acadbfd6b14b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Prefab/Third Person Player.prefab using Guid(46af79cff279bc34584acadbfd6b14b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bbc794bc6147ecae7c63ccaded0dfd') in 0.238611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 236.550836 seconds.
+  path: Assets/Johnna Stuff/Scripts/CharacterController.cs
+  artifactKey: Guid(9ef577783890444029c2a44a72db2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Scripts/CharacterController.cs using Guid(9ef577783890444029c2a44a72db2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c1c0df246b58b21264a32daa8c2f74') in 0.014327 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004020 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae4cd79a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae53f04a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4cd79a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50e3ea00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae53e45e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe17000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4cd79a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff65000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:00:14.243 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e4d5e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.845 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1848ms)
+		BeginReloadAssembly (372ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (177ms)
+		EndReloadAssembly (1392ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.1 MB.
+System memory in use after: 273.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2950.
+Total: 6.814662 ms (FindLiveObjects: 0.675178 ms CreateObjectMapping: 0.180461 ms MarkObjects: 5.920919 ms  DeleteObjects: 0.037031 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae53a96400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae516b5e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4cf9e800 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae526f2400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae526cfe00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe8b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae516b8a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff4b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:07:06.970 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e11340 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2230ms)
+		BeginReloadAssembly (337ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (1801ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.4 MB.
+System memory in use after: 273.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2963.
+Total: 4.256376 ms (FindLiveObjects: 0.263639 ms CreateObjectMapping: 0.100442 ms MarkObjects: 3.845707 ms  DeleteObjects: 0.045800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 435.477855 seconds.
+  path: Assets/Ken Stuff/Other Scripts/SphereControl.cs
+  artifactKey: Guid(69ba89fd412c59e4b9861beb38e54c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Other Scripts/SphereControl.cs using Guid(69ba89fd412c59e4b9861beb38e54c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa99fe8051758861d1c71a069ebcd86') in 0.017552 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001419 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae50c8f000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50d51800 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4b0f9a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bf63a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bf59800 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe17000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bf63a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff65000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:08:00.060 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e6d8f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.438 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1438ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1210ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.5 MB.
+System memory in use after: 273.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2977.
+Total: 3.785139 ms (FindLiveObjects: 0.207762 ms CreateObjectMapping: 0.095127 ms MarkObjects: 3.460726 ms  DeleteObjects: 0.020850 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.910983 seconds.
+  path: Assets/Johnna Stuff/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(881987edfb7e2468f81b856f95fe6fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Scripts/NewBehaviourScript.cs using Guid(881987edfb7e2468f81b856f95fe6fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499b693e32ee5d18202b3f9d8e02553a') in 0.007547 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006336 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae52702e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae52702e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae52708a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae51570e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae53812e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe8b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae51570e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff4b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:11:25.107 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e61ea0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.657 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1660ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (1292ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.8 MB.
+System memory in use after: 274.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2990.
+Total: 4.718687 ms (FindLiveObjects: 0.480090 ms CreateObjectMapping: 0.157268 ms MarkObjects: 4.025266 ms  DeleteObjects: 0.054569 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005129 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae50ca2a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bceea00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bc00400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4b1b4e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ccb2a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe17000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4b1bb800 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff65000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:13:44.899 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e789a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1499ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1257ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (425ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.0 MB.
+System memory in use after: 274.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3003.
+Total: 3.925077 ms (FindLiveObjects: 0.209387 ms CreateObjectMapping: 0.089489 ms MarkObjects: 3.586608 ms  DeleteObjects: 0.038688 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005424 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae53e20400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae53e3fc00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae51658e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4a61a600 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae5168de00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe8b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4c25f400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff4b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:14:12.679 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e7b330 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.643 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1643ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1397ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.2 MB.
+System memory in use after: 274.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3016.
+Total: 3.813402 ms (FindLiveObjects: 0.256074 ms CreateObjectMapping: 0.098528 ms MarkObjects: 3.416366 ms  DeleteObjects: 0.041770 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004635 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae50e01c00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50f0d400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4b6cbc00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bd87800 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4be82400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe17000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4e039e00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff65000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:17:01.093 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e7b800 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1615ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1334ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.4 MB.
+System memory in use after: 274.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3029.
+Total: 4.450350 ms (FindLiveObjects: 0.279284 ms CreateObjectMapping: 0.100138 ms MarkObjects: 4.035376 ms  DeleteObjects: 0.034781 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004601 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae50e93200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4a680400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50e93200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50e93200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50e99c00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe8b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50e99400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff4b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:20:33.393 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e54b60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1798ms)
+		BeginReloadAssembly (300ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1416ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (507ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.6 MB.
+System memory in use after: 274.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3042.
+Total: 4.324955 ms (FindLiveObjects: 0.318477 ms CreateObjectMapping: 0.091531 ms MarkObjects: 3.882836 ms  DeleteObjects: 0.031504 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 970.459023 seconds.
+  path: Assets/Ken Stuff/Other Scripts/SubPlayerScript.cs
+  artifactKey: Guid(d411721e6c5d6104ba5e7628e4623ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Other Scripts/SubPlayerScript.cs using Guid(d411721e6c5d6104ba5e7628e4623ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bfc6ebd124f8b0ee419bb4fa179261') in 0.066953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.426007 seconds.
+  path: Assets/Ken Stuff/Other Scripts/JumpController.cs
+  artifactKey: Guid(fe7a005364175fa40927e3ad01eb19c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Other Scripts/JumpController.cs using Guid(fe7a005364175fa40927e3ad01eb19c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9966049fe56a3068c18dcab87c0e745c') in 0.002475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.971500 seconds.
+  path: Assets/Ken Stuff/Script/FollowPlayer.cs
+  artifactKey: Guid(87ae67663b9c7fd46892239f7c42213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Script/FollowPlayer.cs using Guid(87ae67663b9c7fd46892239f7c42213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f299c6c323f784dc66cc917697fb7f') in 0.003290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.245572 seconds.
+  path: Assets/Ken Stuff/Script/GravityController.cs
+  artifactKey: Guid(771dcaf3ef8c8524eb79c67bb55eb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Script/GravityController.cs using Guid(771dcaf3ef8c8524eb79c67bb55eb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88b716bfc68c5c760063708dc82f68e') in 0.003268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.888095 seconds.
+  path: Assets/Ken Stuff/Script/GravityOrbit.cs
+  artifactKey: Guid(66ab3996149c468439416a5b84eecd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Script/GravityOrbit.cs using Guid(66ab3996149c468439416a5b84eecd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3843383d47a7d2d1227dd49c1b856b3') in 0.002180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.628795 seconds.
+  path: Assets/Ken Stuff/Script/MenuItemScript.cs
+  artifactKey: Guid(c7d241ec008806d46b1cbb7aaa2cb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Script/MenuItemScript.cs using Guid(c7d241ec008806d46b1cbb7aaa2cb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee79788c65653910ba73512c445a9cc0') in 0.003912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.041866 seconds.
+  path: Assets/Ken Stuff/Script/PieMenuScript.cs
+  artifactKey: Guid(a2408e6675b29d7409a24bfff62250d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Script/PieMenuScript.cs using Guid(a2408e6675b29d7409a24bfff62250d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19da97c55cbaf4262aed90e4bf99ef12') in 0.002870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.826670 seconds.
+  path: Assets/Ken Stuff/Script/ThirdPersonMovement.cs
+  artifactKey: Guid(2ec2a5cf3a32f8047ad46c2035834ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Script/ThirdPersonMovement.cs using Guid(2ec2a5cf3a32f8047ad46c2035834ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024c30fa49e8dc1190d09fd652012eea') in 0.002201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.004315 seconds.
+  path: Assets/Ken Stuff/Script/ToggleOnOff.cs
+  artifactKey: Guid(3d74eca6e9fbfbb469c7e4ffd3223d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ken Stuff/Script/ToggleOnOff.cs using Guid(3d74eca6e9fbfbb469c7e4ffd3223d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0e0dca2c4c1871fe0a4369be14b169') in 0.002133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.853854 seconds.
+  path: Assets/Johnna Stuff/Scripts/WallClimbScript.cs
+  artifactKey: Guid(881987edfb7e2468f81b856f95fe6fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Johnna Stuff/Scripts/WallClimbScript.cs using Guid(881987edfb7e2468f81b856f95fe6fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc809a2f1ad435b9042618857a49a598') in 0.011842 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002827 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae510ff200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4b653a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4b46d400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bf63a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bf7e400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe17000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae510ff200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff65000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:27:33.228 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e52df0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.674 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1677ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (1309ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (427ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.9 MB.
+System memory in use after: 275.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3055.
+Total: 3.952988 ms (FindLiveObjects: 0.319364 ms CreateObjectMapping: 0.098748 ms MarkObjects: 3.501728 ms  DeleteObjects: 0.032487 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002284 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae50d87a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae5082e000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae52ce4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50f94000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50fe6a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe8b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4a793a00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff4b000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:33:22.805 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e778e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1811ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (1469ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.1 MB.
+System memory in use after: 275.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3068.
+Total: 5.735328 ms (FindLiveObjects: 0.363045 ms CreateObjectMapping: 0.186079 ms MarkObjects: 4.366484 ms  DeleteObjects: 0.818804 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001515 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fae4bfc6400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fb35000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae5276f000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4e19d200 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fd31000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faf1000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4faa4000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bfc6400 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4bfcce00 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4fe17000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae5276f000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae4ff65000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fae50181000 doesn't match image /Users/johnnabollesen/Documents/GitHub/The_Cat_Game/The Cat Game/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-05-04 13:33:34.952 Unity[75172:1406412] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e78fc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.625 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1625ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1389ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (499ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.3 MB.
+System memory in use after: 275.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3081.
+Total: 4.337437 ms (FindLiveObjects: 0.232172 ms CreateObjectMapping: 0.106802 ms MarkObjects: 3.961090 ms  DeleteObjects: 0.036664 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
