@@ -4,50 +4,26 @@ using UnityEngine;
 
 public class WallClimbScript : MonoBehaviour
 {
-    public float open = 100f;
-    public float range = 1f;
-    public bool TouchingWall = false;
-    public float UpwardSpeed = 3.3f;
-    public Camera Cam;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Shoot();
-        
-        if(Input.GetKey("w") & TouchingWall == true)     
-        {
-            transform.position += Vector3.up * Time.deltaTime * UpwardSpeed;
-            GetComponent<Rigidbody>().isKinematic = true;
-            TouchingWall = false;
-            GetComponent<Rigidbody>().isKinematic = false;
-        }
-
-        if(Input.GetKeyUp("w"))
-        {
-            GetComponent<Rigidbody>().isKinematic = false;
-            TouchingWall = false;
-        }
-    }
-
-    void Shoot()
-    {
-        RaycastHit hit;
-        if (Physics.Raycast(Cam.transform.position, Cam.transform.forward, out hit, range))
-        {
-            Debug.Log(hit.transform.name);
-
-            Target target = hit.transform.GetComponent<Target>();
-            if(target != null)
-            {
-                TouchingWall = true;
-            }
-        }
-    }
+    private Rigidbody rb;
+ public bool ladderClimb = false;
+ void Start()
+     {
+      rb = GetComponent<Rigidbody>();
+     }
+ 
+  void Update()
+     {
+      if(ladderClimb){
+ Vector3 directionRot = new Vector3(0, 0, 0);  //direction of rotation
+ Vector3 movement = new Vector3(0, Input.GetAxisRaw("Vertical"), 0).normalized; //object movement
+   rb.useGravity = false;}
+    else rb.useGravity = true; 
+ }
+ 
+     void OnTriggerStay(Collider collider){
+      if(collider.gameObject.tag == "ladder"){
+      if(Input.GetKeyUp(KeyCode.E)) ladderClimb = !ladderClimb;}}
+ 
+ void OnTriggerExit(Collider collider){
+    if(collider.gameObject.tag == "ladder") ladderClimb = false;}
 }
