@@ -19,6 +19,11 @@ public class WallClimbScript : MonoBehaviour
  Vector3 movement = new Vector3(0, Input.GetAxisRaw("Vertical"), 0).normalized; //object movement
    rb.useGravity = false;}
     else rb.useGravity = true; 
+
+    if (ladderClimb == true && Input.GetKeyDown("w"))
+    {
+      rb.transform.position += Vector3.up;
+    }
  }
  
      void OnTriggerEnter(Collider collider){
@@ -27,4 +32,6 @@ public class WallClimbScript : MonoBehaviour
  
     void OnTriggerExit(Collider collider){
     if(collider.gameObject.tag == "ladder") ladderClimb = false;}
+
+
 }
