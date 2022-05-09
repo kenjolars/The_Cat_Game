@@ -5,7 +5,8 @@ using UnityEngine;
 public class WallClimbScript : MonoBehaviour
 {
     private Rigidbody rb;
- public bool ladderClimb = false;
+    public bool ladderClimb = false;
+
  void Start()
      {
       rb = GetComponent<Rigidbody>();
@@ -20,10 +21,10 @@ public class WallClimbScript : MonoBehaviour
     else rb.useGravity = true; 
  }
  
-     void OnTriggerStay(Collider collider){
+     void OnTriggerEnter(Collider collider){
       if(collider.gameObject.tag == "ladder"){
       if(Input.GetKeyUp(KeyCode.E)) ladderClimb = !ladderClimb;}}
  
- void OnTriggerExit(Collider collider){
+    void OnTriggerExit(Collider collider){
     if(collider.gameObject.tag == "ladder") ladderClimb = false;}
 }
