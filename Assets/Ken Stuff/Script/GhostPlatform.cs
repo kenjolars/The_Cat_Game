@@ -5,10 +5,8 @@ using UnityEngine;
 public class GhostPlatform : MonoBehaviour
 {
     //Variables
-    //[SerializeField] string playerTag = "Player";
+    [SerializeField] string playerTag = "Player";
     [SerializeField] float disappearTime = 3;
-
-    public GameObject Player;
 
     Animator myAnim;
 
@@ -28,10 +26,10 @@ public class GhostPlatform : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Hitting");
-        if (other.gameObject == Player)
+        if (collision.transform.tag == playerTag)
         {
             Debug.Log("Hitting");
             myAnim.SetBool("Trigger", true);
