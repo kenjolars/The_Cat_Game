@@ -5,10 +5,13 @@ using UnityEngine;
 public class GhostPlatform : MonoBehaviour
 {
     //Variables
-    [SerializeField] string playerTag = "Player";
+    //[SerializeField] string playerTag = "Player";
+    public GameObject Player;
     [SerializeField] float disappearTime = 3;
 
     Animator myAnim;
+
+    Vector3 velocity;
 
     [SerializeField] bool canReset;
     [SerializeField] float resetTime;
@@ -26,13 +29,14 @@ public class GhostPlatform : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Hitting");
-        if (collision.transform.tag == playerTag)
+        if (other.tag == "Player")
         {
             Debug.Log("Hitting");
             myAnim.SetBool("Trigger", true);
+            velocity.y = -2f;
         }
     }
 
