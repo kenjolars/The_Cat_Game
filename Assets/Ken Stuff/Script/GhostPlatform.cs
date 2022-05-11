@@ -9,6 +9,11 @@ public class GhostPlatform : MonoBehaviour
     public GameObject Player;
     [SerializeField] float disappearTime = 3;
 
+<<<<<<< HEAD
+=======
+    public GameObject Player;
+
+>>>>>>> parent of e3007853 (Was able to make changes to ghost platforms and made it workable)
     Animator myAnim;
 
     Vector3 velocity;
@@ -29,7 +34,7 @@ public class GhostPlatform : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         Debug.Log("Hitting");
         if (other.tag == "Player")

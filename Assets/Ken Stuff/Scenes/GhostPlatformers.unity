@@ -157,15 +157,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6011600357507818793, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1350594
+      value: 0.13505942
       objectReference: {fileID: 0}
     - target: {fileID: 6011600357507818793, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000001476463
+      value: 8.719026e-16
       objectReference: {fileID: 0}
     - target: {fileID: 6011600357507818793, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000020125421
+      value: -1.7869098e-17
       objectReference: {fileID: 0}
     - target: {fileID: 7124878887161204970, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_RootOrder
@@ -401,6 +401,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1293123811654086460, guid: d4de49d9aad10534fa1366bfa019e79e, type: 3}
   m_PrefabInstance: {fileID: 3435012910810892587}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!65 &1053236147
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -414,6 +415,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.95, y: 0.5, z: 0.95}
   m_Center: {x: 0, y: 0.7, z: 0}
+=======
+>>>>>>> parent of e3007853 (Was able to make changes to ghost platforms and made it workable)
 --- !u!114 &1053236148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,9 +430,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 776604760}
+<<<<<<< HEAD
   disappearTime: 3
   canReset: 1
   resetTime: 3
+=======
+  canReset: 0
+  resetTime: 10
+>>>>>>> parent of e3007853 (Was able to make changes to ghost platforms and made it workable)
 --- !u!4 &1105916767 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1062359063396453483, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
