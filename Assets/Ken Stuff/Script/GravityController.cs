@@ -7,7 +7,7 @@ public class GravityController : MonoBehaviour
     public GravityOrbit Gravity;
     private Rigidbody Rb;
 
-    public float RotationSpeed = 20;
+    public float RotationSpeed = 5;
 
     // Start is called before the first frame update
     void Start()
