@@ -8,7 +8,7 @@ public class GhostPlatform : MonoBehaviour
     //[SerializeField] string playerTag = "Player";
     [SerializeField] float disappearTime = 3;
 
-    public GameObject Player;
+    [SerializeField] public GameObject Player;
 
     Animator myAnim;
 
@@ -28,7 +28,7 @@ public class GhostPlatform : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Hitting");
         if (other.gameObject == Player)
