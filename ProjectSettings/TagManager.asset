@@ -6,6 +6,7 @@ TagManager:
   tags:
   - World
   - Planet
+  - ladder
   layers:
   - Default
   - TransparentFX
