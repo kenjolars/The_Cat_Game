@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7525193643090027152}
   - component: {fileID: 1221136658121189827}
   - component: {fileID: 178703892093625181}
+  - component: {fileID: 4323759297081903320}
   m_Layer: 6
   m_Name: GhostPlatform
   m_TagString: Untagged
@@ -132,3 +133,16 @@ MonoBehaviour:
   disappearTime: 3
   canReset: 0
   resetTime: 0
+--- !u!65 &4323759297081903320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293123811654086460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.95, y: 1, z: 0.95}
+  m_Center: {x: 0, y: 1, z: 0}
