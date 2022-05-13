@@ -9,6 +9,8 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject pauseMenuUI;
 
+    public GameObject panel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,7 @@ public class PauseMenu : MonoBehaviour
             {
                 Resume();
                 GetComponent<RadialMenu>().enabled = true;
+
             }
             else
             {
