@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RadialMenu : MonoBehaviour
+public class newRadialMenu : MonoBehaviour
 {
     //Variables
     public static bool GameIsPaused = false;
@@ -13,7 +13,7 @@ public class RadialMenu : MonoBehaviour
     void Start()
     {
         radialMenuUI.SetActive(false);
-        Time.timeScale = 1f;
+        Time.timeScale = 1;
         GameIsPaused = false;
     }
 
@@ -21,19 +21,14 @@ public class RadialMenu : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
-
         {
-            if (GameIsPaused)
+            if(GameIsPaused)
             {
                 Resume();
-                //GetComponent<RadialMenu>().enabled = true;
-                Debug.Log("Working");
-
             }
             else
             {
                 Pause();
-                //GetComponent<RadialMenu>().enabled = false;
             }
         }
     }
