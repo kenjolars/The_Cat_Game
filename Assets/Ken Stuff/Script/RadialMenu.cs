@@ -26,14 +26,14 @@ public class RadialMenu : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
-                //GetComponent<RadialMenu>().enabled = true;
+                GetComponent<PauseMenu>().enabled = true;
                 Debug.Log("Working");
 
             }
             else
             {
                 Pause();
-                //GetComponent<RadialMenu>().enabled = false;
+                GetComponent<PauseMenu>().enabled = false;
             }
         }
     }
