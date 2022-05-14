@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(1);
     }
 
     public void QuitGame()
@@ -54,6 +54,6 @@ public class MainMenu : MonoBehaviour
     }
     public void Level4()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(5);
     }
 }

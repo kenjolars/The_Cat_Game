@@ -24,11 +24,6 @@ public class ToggleOnOff : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            Debug.Log("Tab is pressed");
-        }
-
         /*if (Input.GetKeyDown(KeyCode.E))
         {
             isOnToggle = !isOnToggle;
@@ -38,7 +33,7 @@ public class ToggleOnOff : MonoBehaviour
             Debug.Log("E is pressed");
         }*/
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             RenderSettings.skybox = dayMat;
             Debug.Log("1 is being pressed");
@@ -46,7 +41,7 @@ public class ToggleOnOff : MonoBehaviour
             nightItems.SetActive(false);
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             RenderSettings.skybox = nightMat;
             Debug.Log("1 is being pressed");

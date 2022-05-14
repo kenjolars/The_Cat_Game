@@ -27,14 +27,14 @@ public class PauseMenu : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
-                GetComponent<RadialMenu>().enabled = true;
+                //GetComponent<RadialMenu>().enabled = true;
                 /*Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;*/
             }
             else
             {
                 Pause();
-                GetComponent<RadialMenu>().enabled = false;
+                //GetComponent<RadialMenu>().enabled = false;
                 //Cursor.lockState = CursorLockMode.None;
                 //Cursor.visible = true;
             }
