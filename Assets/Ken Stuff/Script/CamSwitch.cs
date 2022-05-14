@@ -28,4 +28,13 @@ public class CamSwitch : MonoBehaviour
             mainCam.SetActive(true);
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject == Player)
+        {
+            switchCam.SetActive(true);
+            mainCam.SetActive(false);
+        }
+    }
 }

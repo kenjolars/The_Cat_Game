@@ -15,24 +15,28 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        //Cursor.visible = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.BackQuote))
 
         {
             if (GameIsPaused)
             {
                 Resume();
                 GetComponent<RadialMenu>().enabled = true;
-
+                /*Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;*/
             }
             else
             {
                 Pause();
                 GetComponent<RadialMenu>().enabled = false;
+                //Cursor.lockState = CursorLockMode.None;
+                //Cursor.visible = true;
             }
         }
     }

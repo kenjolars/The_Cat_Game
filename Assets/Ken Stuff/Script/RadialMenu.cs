@@ -15,25 +15,29 @@ public class RadialMenu : MonoBehaviour
         radialMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.Tab))
 
         {
             if (GameIsPaused)
             {
                 Resume();
                 GetComponent<PauseMenu>().enabled = true;
-                Debug.Log("Working");
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
 
             }
             else
             {
                 Pause();
                 GetComponent<PauseMenu>().enabled = false;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
             }
         }
     }

@@ -464,7 +464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
-  baseColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+  baseColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
   background: {fileID: 1817773623}
   description: {fileID: 1093889729}
 --- !u!1 &196332422
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
-  baseColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+  baseColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
   background: {fileID: 1973221485}
   description: {fileID: 1967312035}
 --- !u!1 &215396459
@@ -1038,7 +1038,7 @@ PrefabInstance:
     - target: {fileID: 1062359063396453492, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
       propertyPath: groundCheck
       value: 
-      objectReference: {fileID: 1842136228}
+      objectReference: {fileID: 944375130}
     - target: {fileID: 1062359063396453492, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
       propertyPath: groundMask.m_Bits
       value: 64
@@ -1330,7 +1330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
-  baseColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+  baseColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
   background: {fileID: 1088862203}
   description: {fileID: 1789332544}
 --- !u!1 &601000243
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2242,6 +2242,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934108803}
   m_CullTransparentMesh: 1
+--- !u!4 &944375130 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2838279868916172840, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
+  m_PrefabInstance: {fileID: 311264013}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &965491872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3660,7 +3665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
-  baseColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+  baseColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
   background: {fileID: 616174481}
   description: {fileID: 1162509259}
 --- !u!1 &1577432310
@@ -4345,11 +4350,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!4 &1808052579 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1062359064370251993, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
-  m_PrefabInstance: {fileID: 311264013}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1817773621
 GameObject:
   m_ObjectHideFlags: 0
@@ -4425,36 +4425,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817773621}
   m_CullTransparentMesh: 1
---- !u!1 &1842136227
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1842136228}
-  m_Layer: 0
-  m_Name: GroundCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1842136228
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1842136227}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1808052579}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1854464403
 GameObject:
   m_ObjectHideFlags: 0
@@ -4641,7 +4611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
-  baseColor: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+  baseColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
   background: {fileID: 1733100688}
   description: {fileID: 1957045380}
 --- !u!1 &1886518755
