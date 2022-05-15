@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 1cf6f4c6e6e0518419839d3f5448dd99, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 93a26ddbcae6fbc4fb21518d323657d3, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1645185, g: 0.18085322, b: 0.3304661, a: 1}
+  m_IndirectSpecularColor: {r: 0.2963103, g: 0.63374656, b: 0.9937512, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -713,6 +713,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1728066859, guid: 8b1239c2c9d9f004589c3f62be0b0048, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 469680523}
+    - target: {fileID: 1728066859, guid: 8b1239c2c9d9f004589c3f62be0b0048, type: 3}
+      propertyPath: catEnding
+      value: 
+      objectReference: {fileID: 515922707}
     - target: {fileID: 5199193553657424137, guid: 8b1239c2c9d9f004589c3f62be0b0048, type: 3}
       propertyPath: m_Name
       value: Cat Lite Variant
@@ -1826,7 +1834,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.7654179, b: 0.5990566, a: 1}
+  m_Color: {r: 0.28417572, g: 0, b: 0.6415094, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -2242,7 +2250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &484670909
 Transform:
   m_ObjectHideFlags: 0
@@ -2268,7 +2276,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.7654179, b: 0.5990566, a: 1}
+  m_Color: {r: 0.2845679, g: 0, b: 0.6415094, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -2319,6 +2327,11 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &515922707 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4797208151580979312, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
+  m_PrefabInstance: {fileID: 708222340}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &542061671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3389,6 +3402,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7124878887161204969, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
+      propertyPath: m_TransparentLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7124878887161204970, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3457,7 +3474,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Third Person Camera
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7124878887161204969, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 274cf5f7f70e5eb40a18fef40a5ad228, type: 3}
 --- !u!1001 &805072176
 PrefabInstance:
@@ -4683,6 +4701,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1062359063396453492, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
+      propertyPath: jumpHeight
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062359063396453492, guid: 46af79cff279bc34584acadbfd6b14b5, type: 3}
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 1031897379}
@@ -5447,7 +5469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1349242040
 Light:
   m_ObjectHideFlags: 0
@@ -6353,9 +6375,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 102294, guid: 20822131f7a068849967c4eb0328c80d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 104836, guid: 20822131f7a068849967c4eb0328c80d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 130096, guid: 20822131f7a068849967c4eb0328c80d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 131364, guid: 20822131f7a068849967c4eb0328c80d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 151074, guid: 20822131f7a068849967c4eb0328c80d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 167220, guid: 20822131f7a068849967c4eb0328c80d, type: 3}
       propertyPath: m_Name
       value: defult cloud
+      objectReference: {fileID: 0}
+    - target: {fileID: 169350, guid: 20822131f7a068849967c4eb0328c80d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402026, guid: 20822131f7a068849967c4eb0328c80d, type: 3}
       propertyPath: m_RootOrder
@@ -6527,7 +6573,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1719323214
 Transform:
   m_ObjectHideFlags: 0
@@ -6879,7 +6925,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1888954354
 Transform:
   m_ObjectHideFlags: 0
@@ -7207,7 +7253,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.7654179, b: 0.5990566, a: 1}
+  m_Color: {r: 0.19126673, g: 0, b: 0.5849056, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30

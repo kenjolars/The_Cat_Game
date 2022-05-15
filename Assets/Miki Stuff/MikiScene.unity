@@ -412,6 +412,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4797208151580979312, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4797208152496041858, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2268,6 +2272,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1728066859, guid: 8b1239c2c9d9f004589c3f62be0b0048, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1995641504}
+    - target: {fileID: 1728066859, guid: 8b1239c2c9d9f004589c3f62be0b0048, type: 3}
+      propertyPath: catEnding
+      value: 
+      objectReference: {fileID: 803047629}
+    - target: {fileID: 1728066860, guid: 8b1239c2c9d9f004589c3f62be0b0048, type: 3}
+      propertyPath: m_Size.z
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5199193553657424137, guid: 8b1239c2c9d9f004589c3f62be0b0048, type: 3}
       propertyPath: m_Name
       value: Cat Lite Variant
@@ -4077,6 +4093,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
   m_PrefabInstance: {fileID: 784723095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &803047629 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4797208151580979312, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
+  m_PrefabInstance: {fileID: 44127495}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &807238989
 PrefabInstance:
