@@ -7,8 +7,6 @@ TagManager:
   - World
   - Planet
   - ladder
-  - ground
-  - Sign
   layers:
   - Default
   - TransparentFX
