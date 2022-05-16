@@ -14620,6 +14620,33 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4797208151703103121, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
+      propertyPath: m_Text
+      value: 'There is something... strange about these platforms.
+
+
+        Be careful
+        :^)
+
+
+        Be aware when you are crossing over these "platforms".
+
+
+        Good
+        luck!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797208151818651459, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
+      propertyPath: m_Text
+      value: 'There appears to be some obstacles blocking the pathway.
+
+
+        You
+        will need to find a way to open these obstacles in front of you.
+
+
+        Good
+        Luck!'
+      objectReference: {fileID: 0}
     - target: {fileID: 4797208152376258551, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 210.73227
@@ -14719,6 +14746,18 @@ PrefabInstance:
     - target: {fileID: 4797208152496041870, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4797208152582158900, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
+      propertyPath: m_Text
+      value: 'Welcome to the Paw-fect World!
+
+
+        If you want to see your cat
+        again you will need to complete these obstacles to pass through to reunite
+        with your cat.
+
+
+        Bwahahaha I wish you good luck!'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7c3ebfa330846944a9c8c3ba149141d, type: 3}
