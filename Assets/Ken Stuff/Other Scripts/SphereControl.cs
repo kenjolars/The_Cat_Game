@@ -7,6 +7,7 @@ public class SphereControl : MonoBehaviour
     public float speed = 10;
     private Vector3 moveDir;
     private Rigidbody rb;
+    public float jumpForce = 1000;
 
 
     void Start()
@@ -15,10 +16,10 @@ public class SphereControl : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        /*if (Input.GetKeyDown(KeyCode.Space))
         {
-                rb.AddRelativeForce(Vector3.up * 1500);
-        }
+            rb.AddRelativeForce(Vector3.up * jumpForce);
+        }*/
 
         moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
     }

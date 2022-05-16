@@ -15,21 +15,28 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        //Cursor.visible = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.BackQuote))
 
         {
             if (GameIsPaused)
             {
                 Resume();
+                //GetComponent<RadialMenu>().enabled = true;
+                /*Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;*/
             }
             else
             {
                 Pause();
+                //GetComponent<RadialMenu>().enabled = false;
+                //Cursor.lockState = CursorLockMode.None;
+                //Cursor.visible = true;
             }
         }
     }
@@ -39,6 +46,13 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+
+        AudioSource[] audios = FindObjectsOfType<AudioSource>();
+        foreach (AudioSource a in audios)
+        {
+            a.Play();
+        }
+
     }
 
     void Pause()
@@ -46,5 +60,11 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+
+        AudioSource[] audios = FindObjectsOfType<AudioSource>();
+        foreach (AudioSource a in audios)
+        {
+            a.Pause();
+        }
     }
 }
