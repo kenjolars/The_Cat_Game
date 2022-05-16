@@ -126,10 +126,11 @@ NavMeshSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
 =======
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 --- !u!1 &20713600
@@ -223,7 +224,6 @@ Transform:
   m_GameObject: {fileID: 20713600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_LocalPosition: {x: 35.68, y: 17.89, z: -15.79}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
@@ -232,17 +232,12 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> Stashed changes
 =======
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
   m_LocalPosition: {x: 35.86, y: 17.89, z: -15.49}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 143
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
-=======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 --- !u!1001 &23700906
 =======
@@ -472,6 +467,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
       value: 30.36
 =======
@@ -480,12 +478,15 @@ PrefabInstance:
 =======
       value: 30.57
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: 30.57
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -3001.43
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -753,10 +754,11 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
 =======
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 --- !u!1 &77820105
@@ -857,7 +859,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 146
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> Stashed changes
@@ -865,12 +866,15 @@ Transform:
   m_RootOrder: 145
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
   m_RootOrder: 145
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 --- !u!1001 &81551070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1139,6 +1143,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
       value: 36.11
 =======
@@ -1147,12 +1154,15 @@ PrefabInstance:
 =======
       value: 35.83
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: 35.83
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -2996.17
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1479,6 +1489,9 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
 --- !u!1001 &166435759
 =======
@@ -1541,8 +1554,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 --- !u!1001 &217827907
@@ -1791,6 +1802,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
       value: 30.41
 =======
@@ -1799,12 +1813,15 @@ PrefabInstance:
 =======
       value: 30.67
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: 30.67
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -3001.33
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1815,6 +1832,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
       value: -17.74
 =======
@@ -1823,12 +1843,15 @@ PrefabInstance:
 =======
       value: -17.55
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: -17.55
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -2020.55
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2499,6 +2522,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
       value: -30.02
 =======
@@ -2507,12 +2533,15 @@ PrefabInstance:
 =======
       value: -30.15
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: -30.15
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -2033.15
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2609,10 +2638,11 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
 =======
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 --- !u!1 &400933755
@@ -2709,7 +2739,6 @@ Transform:
   m_GameObject: {fileID: 400933755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_LocalPosition: {x: 35.89, y: 17.89, z: -23.29}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
@@ -2718,17 +2747,12 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> Stashed changes
 =======
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
   m_LocalPosition: {x: 35.86, y: 17.89, z: -22.94}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 144
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
-=======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
@@ -2938,6 +2962,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
       value: 37.47
 =======
@@ -2946,12 +2973,15 @@ PrefabInstance:
 =======
       value: 37.071
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: 37.071
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -2994.929
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3166,6 +3196,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
       value: 37.3
 =======
@@ -3174,12 +3207,15 @@ PrefabInstance:
 =======
       value: 37.071
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: 37.071
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -2994.929
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3408,6 +3444,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
 --- !u!1001 &574406247
 =======
@@ -3546,10 +3585,13 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 --- !u!1001 &579482840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4023,16 +4065,22 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       value: 37.49
 =======
       value: 37.071
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: 37.071
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -2994.929
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5404,11 +5452,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 --- !u!1 &919943396
@@ -5502,7 +5547,6 @@ Transform:
   m_GameObject: {fileID: 919943396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_LocalPosition: {x: 35.84, y: 17.89, z: -25.92}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
@@ -5511,17 +5555,12 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> Stashed changes
 =======
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
   m_LocalPosition: {x: 35.48, y: 17.89, z: -25.92}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 146
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
-=======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 --- !u!1001 &963804871
 PrefabInstance:
@@ -5655,15 +5694,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 30.45
 =======
       value: 30.77
 >>>>>>> Stashed changes
-=======
-      value: 30.72
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: 30.72
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
@@ -5781,15 +5816,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 37.34
 =======
       value: 37.43
 >>>>>>> Stashed changes
-=======
-      value: 37.11
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: 37.11
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
@@ -6118,11 +6149,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 --- !u!1 &1162278248
@@ -6216,7 +6244,6 @@ Transform:
   m_GameObject: {fileID: 1162278248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_LocalPosition: {x: 28.88, y: 17.89, z: -31.57}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
@@ -6225,17 +6252,12 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> Stashed changes
 =======
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
   m_LocalPosition: {x: 28.3, y: 17.89, z: -31.49}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 147
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
-=======
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 --- !u!1001 &1198876780
 PrefabInstance:
@@ -6662,15 +6684,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: -19.78
 =======
       value: -19.46
 >>>>>>> Stashed changes
-=======
-      value: -19.6
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -19.6
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
@@ -6788,15 +6806,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: -30.18
 =======
       value: -29.88
 >>>>>>> Stashed changes
-=======
-      value: -30.08
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -30.08
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
@@ -6914,15 +6928,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: -21.93
 =======
       value: -21.87
 >>>>>>> Stashed changes
-=======
-      value: -21.66
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -21.66
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
@@ -7044,6 +7054,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
       value: -30.12
 =======
@@ -7052,12 +7065,15 @@ PrefabInstance:
 =======
       value: -30.15
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: -30.15
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -2030.2
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7691,15 +7707,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: -21.98
 =======
       value: -21.83
 >>>>>>> Stashed changes
-=======
-      value: -21.66
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -21.66
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
@@ -7817,15 +7829,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: -21.97
 =======
       value: -21.85
 >>>>>>> Stashed changes
-=======
-      value: -21.66
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -21.66
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
@@ -8049,15 +8057,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 36.46
 =======
       value: 36.19
 >>>>>>> Stashed changes
-=======
-      value: 35.48
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: 35.48
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
@@ -8118,15 +8122,11 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< Updated upstream
       value: 37.42
 =======
       value: 37.44
 >>>>>>> Stashed changes
-=======
-      value: 37.02
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: 37.02
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
@@ -9234,11 +9234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalPosition.z
-<<<<<<< HEAD
       value: -24.47
-=======
-      value: -24.38
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10965,6 +10961,9 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 10a83f1c (Yep)
 <<<<<<< Updated upstream
       value: -22.04
 =======
@@ -10973,12 +10972,15 @@ PrefabInstance:
 =======
       value: -21.66
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
+<<<<<<< HEAD
 =======
       value: -21.66
 >>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
 =======
       value: -2021.19
 >>>>>>> parent of a690d49e (Merge branch 'main' of https://github.com/kenjolars/The_Cat_Game)
+=======
+>>>>>>> parent of 10a83f1c (Yep)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1938cd5cf7941f548b756cdb94a425fb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15538,13 +15540,10 @@ PrefabInstance:
     - target: {fileID: 7931985069955611677, guid: 6de698c68232bce47b28402223836170, type: 3}
       propertyPath: m_RootOrder
       value: 148
-<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7931985069955611677, guid: 6de698c68232bce47b28402223836170, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.2
-=======
->>>>>>> parent of 9c19fff4 (Update of the terrain and collectable objects)
       objectReference: {fileID: 0}
     - target: {fileID: 7931985069955611677, guid: 6de698c68232bce47b28402223836170, type: 3}
       propertyPath: m_LocalPosition.x
